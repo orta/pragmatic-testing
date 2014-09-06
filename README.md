@@ -1,7 +1,7 @@
 A Pragmatic Approach to Testing
 ===============
 
-An ebook about pragmatic testing strategys. You can grab the [epub here](https://github.com/orta/pragmatic-testing/blob/master/pragmatic_testing.epub?raw=true) - it's usually up to date.
+An ebook about pragmatic testing strategies. You can grab the [epub here](https://github.com/orta/pragmatic-testing/blob/master/pragmatic_testing.epub?raw=true) - it's usually up to date.
 
 ##### Prospective Pages
 
@@ -9,7 +9,6 @@ An ebook about pragmatic testing strategys. You can grab the [epub here](https:/
 * What is XCTest, how does it work?
 * How can I be pragmatic with my testing?
 
-* Getting Setup
 * Types of Testing
   * Unit Testing
   * Behavior Testing
@@ -20,6 +19,7 @@ An ebook about pragmatic testing strategys. You can grab the [epub here](https:/
   * Mocking / Stubbing ( OCMock / OCMockito )
     * Network Stubbing ( OHTTP / VCRURLConnection )
 
+* Getting Setup
 * Introducing tests into an existing application
 
 * Techniques for keeping testing code sane
@@ -43,6 +43,7 @@ An ebook about pragmatic testing strategys. You can grab the [epub here](https:/
   * Testing Migrations
   * Stubbed Core Data Contexts
 
+* Making librarys to get annoying tests out
 * Improving Xcode
 * Expanding on Specta / Expecta
 * Swift
@@ -60,7 +61,10 @@ An ebook about pragmatic testing strategys. You can grab the [epub here](https:/
 | Topics | Last Updated |
 | -------|--------------|
 |[Core-Data-Migrations](Core-Data-Migrations.md)|06 Sep|
+|[Getting Setup](getting_setup.md)|06 Sep|
+|[How Can_i_be_pragmatic](how_can_I_be_pragmatic.md)|06 Sep|
 |[Recommended Websites](recommended_websites.md)|06 Sep|
+|[What And_why](what_and_why.md)|06 Sep|
 |[What Is_xctest](what_is_xctest.md)|06 Sep|
 
 ##### Generating the ebook
