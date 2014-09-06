@@ -1,27 +1,54 @@
 A Pragmatic Approach to Testing
 ===============
 
-An ebook about pragmatic testing strategys. You can grab the [epub here](https://github.com/orta/pragmatic-testing/blob/master/pragmatic_testing.epub) - it's usually up to date.
+An ebook about pragmatic testing strategys. You can grab the [epub here](https://github.com/orta/pragmatic-testing/blob/master/pragmatic_testing.epub?raw=true) - it's usually up to date.
 
 ##### Prospective Pages
 
-Getting Setup
-Types of Testing
-  Unit Testing
-  Behavior Testing
-  Integration Testing
+* What & Why of the book
+* What is XCTest, how does it work?
+* How can I be pragmatic with my testing?
 
-Tooling for the types of testing
-  Unit Testing ( Specta / Kiwi )
-  Mocking / Stubbing ( OCMock / OCMockito )
+* Getting Setup
+* Types of Testing
+  * Unit Testing
+  * Behavior Testing
+  * Integration Testing
 
-Techniques for getting around Async Testing
-  Networking in View Controllers ( Network Models )
-  Animations
-  Dispatch Asyncs ( ar_dispatch etc )
-  `will` / `XCTest 6`
+* Tooling for the types of testing
+  * Unit Testing ( Specta / Kiwi )
+  * Mocking / Stubbing ( OCMock / OCMockito )
 
+* Introducing tests into an existing application
 
+* Techniques for keeping testing code sane
+  * Before / After usage
+  * Creation of app-centric `it` blocks
+  * Fixtures / Factories
+
+* Techniques for getting around Async Testing
+  * Networking in View Controllers ( Network Models )
+  * Animations
+  * Dispatch Asyncs ( ar_dispatch etc )
+  * `will` / `XCTest 6`
+
+* Techniques for testing different aspects of the app
+  * Views ( Snapshots )
+    * Scroll Views
+  * User interactions
+  * iPad / iPhone
+
+* Core Data
+  * Testing Migrations
+  * Stubbed Core Data Contexts
+
+* Expanding on Specta
+* Swift
+* Recommended Books
+* Recommended Twitter Followers
+* OSS Testing in iOS
+  * RestKit
+  * Moya / Eidolon
 
 ##### Existing Pages
 
