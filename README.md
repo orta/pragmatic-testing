@@ -18,6 +18,7 @@ An ebook about pragmatic testing strategys. You can grab the [epub here](https:/
 * Tooling for the types of testing
   * Unit Testing ( Specta / Kiwi )
   * Mocking / Stubbing ( OCMock / OCMockito )
+    * Network Stubbing ( OHTTP / VCRURLConnection )
 
 * Introducing tests into an existing application
 
@@ -42,10 +43,14 @@ An ebook about pragmatic testing strategys. You can grab the [epub here](https:/
   * Testing Migrations
   * Stubbed Core Data Contexts
 
-* Expanding on Specta
+* Improving Xcode
+* Expanding on Specta / Expecta
 * Swift
-* Recommended Books
-* Recommended Twitter Followers
+* Recommended
+  * Books
+  * Websites
+  * Twitter Follows
+
 * OSS Testing in iOS
   * RestKit
   * Moya / Eidolon
@@ -55,6 +60,8 @@ An ebook about pragmatic testing strategys. You can grab the [epub here](https:/
 | Topics | Last Updated |
 | -------|--------------|
 |[Core-Data-Migrations](Core-Data-Migrations.md)|06 Sep|
+|[Recommended Websites](recommended_websites.md)|06 Sep|
+|[What Is_xctest](what_is_xctest.md)|06 Sep|
 
 ##### Generating the ebook
 
