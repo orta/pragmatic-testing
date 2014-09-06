@@ -43,7 +43,8 @@ An ebook about pragmatic testing strategies. You can grab the [epub here](https:
   * Testing Migrations
   * Stubbed Core Data Contexts
 
-* Making librarys to get annoying tests out
+* Making libraries to get annoying tests out of your app
+* Using Xcode pragmatically
 * Improving Xcode
 * Expanding on Specta / Expecta
 * Swift
