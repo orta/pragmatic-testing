@@ -8,16 +8,25 @@ class Epub
       return
     end
 
-    markdown_files = get_markdown_files
-    compiled = compile_markdown_files markdown_files
+    markdown_files = %w[
+      what_and_why.md
+      what_is_xctest.md
+      how_can_I_be_pragmatic.md
+      getting_setup.md
+      recommended_websites.md
+      Core-Data-Migrations.md
+    ]
 
-    file = Tempfile.new('book')
-    file.write compiled
-    file.close
+    all_markdown = get_markdown_files
 
-    `pandoc -f markdown -t epub --epub-cover-image=assets/mock_logo.png -o pragmatic_testing.epub --smart --toc --epub-stylesheet=assets/pragmatic_style.css #{file.path}`
+    diff = (markdown_files|all_markdown) - (markdown_files & all_markdown)
+    if diff.length > 0
+      puts "Looks like #{diff.join(" ")} is/are missing."
+    end
 
-    file.unlink
+    `pandoc -f markdown -t epub --epub-cover-image=assets/mock_logo.png -o pragmatic_testing.epub --smart --toc --epub-stylesheet=assets/pragmatic_style.css #{ markdown_files.join(" " )}`
+
+    # file.unlink
   end
 
   def get_markdown_files

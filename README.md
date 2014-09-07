@@ -14,6 +14,12 @@ An ebook about pragmatic testing strategies. You can grab the [epub here](https:
   * Behavior Testing
   * Integration Testing
 
+* Useful terminology
+  * Testing Terminology
+    * DI
+    * Stubs / Mocks
+    * Fakes ( + protocols )
+
 * Tooling for the types of testing
   * Unit Testing ( Specta / Kiwi )
   * Mocking / Stubbing ( OCMock / OCMockito )
@@ -23,7 +29,7 @@ An ebook about pragmatic testing strategies. You can grab the [epub here](https:
 * Introducing tests into an existing application
 
 * Techniques for keeping testing code sane
-  * Before / After usage
+  * Nested Before / After usage
   * Creation of app-centric `it` blocks
   * Fixtures / Factories
 
@@ -47,6 +53,7 @@ An ebook about pragmatic testing strategies. You can grab the [epub here](https:
 * Using Xcode pragmatically
 * Improving Xcode
 * Expanding on Specta / Expecta
+* Test Driven Development
 * Swift
 * Recommended
   * Books
@@ -54,14 +61,14 @@ An ebook about pragmatic testing strategies. You can grab the [epub here](https:
   * Twitter Follows
 
 * OSS Testing in iOS
-  * RestKit
+  * RestKit + AFNetworking
   * Moya / Eidolon
 
 ##### Existing Pages
 
 | Topics | Last Updated |
 | -------|--------------|
-|[Core-Data-Migrations](Core-Data-Migrations.md)|06 Sep|
+|[Core-Data-Migrations](Core-Data-Migrations.md)|07 Sep|
 |[Getting Setup](getting_setup.md)|06 Sep|
 |[How Can_i_be_pragmatic](how_can_I_be_pragmatic.md)|06 Sep|
 |[Recommended Websites](recommended_websites.md)|06 Sep|
