@@ -46,6 +46,7 @@ An ebook about pragmatic testing strategies. You can grab the [epub here](https:
   * iPad / iPhone
 
 * Core Data
+  * Assert on accessing main context
   * Testing Migrations
   * Stubbed Core Data Contexts
 
