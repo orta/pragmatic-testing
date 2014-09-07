@@ -69,7 +69,7 @@ An ebook about pragmatic testing strategies. You can grab the [epub here](https:
 
 | Topics | Last Updated |
 | -------|--------------|
-|[Core-Data-Migrations](Core-Data-Migrations.md)|07 Sep|
+|[Core Data_migrations](core_data_migrations.md)|07 Sep|
 |[Getting Setup](getting_setup.md)|06 Sep|
 |[How Can_i_be_pragmatic](how_can_I_be_pragmatic.md)|06 Sep|
 |[Recommended Websites](recommended_websites.md)|06 Sep|

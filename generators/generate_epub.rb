@@ -14,10 +14,10 @@ class Epub
       how_can_I_be_pragmatic.md
       getting_setup.md
       recommended_websites.md
-      Core-Data-Migrations.md
+      core_data_migrations.md
     ]
 
-    all_markdown = get_markdown_file
+    all_markdown = get_markdown_files
     diff = (markdown_files|all_markdown) - (markdown_files & all_markdown)
     if diff.length > 0
       puts "Looks like #{diff.join(" ")} is/are missing."
