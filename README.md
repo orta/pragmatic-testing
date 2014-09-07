@@ -71,9 +71,10 @@ An ebook about pragmatic testing strategies. You can grab the [epub here](https:
 | -------|--------------|
 |[Core Data_migrations](core_data_migrations.md)|07 Sep|
 |[Getting Setup](getting_setup.md)|06 Sep|
-|[How Can_i_be_pragmatic](how_can_I_be_pragmatic.md)|06 Sep|
+|[How Can_i_be_pragmatic](how_can_I_be_pragmatic.md)|07 Sep|
 |[Recommended Websites](recommended_websites.md)|06 Sep|
-|[What And_why](what_and_why.md)|06 Sep|
+|[Types Of_testing](types_of_testing.md)|07 Sep|
+|[What And_why](what_and_why.md)|07 Sep|
 |[What Is_xctest](what_is_xctest.md)|06 Sep|
 
 ##### Generating the ebook
