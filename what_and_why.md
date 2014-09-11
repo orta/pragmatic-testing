@@ -6,9 +6,11 @@ I found very few consolidated resources for testing in iOS general. A lot of the
 
 Finally this is not a generic iOS Testing book. I will not be objective. This is a pragmatic book from a pragmatic programmer known for making things, not architecting things. There will be things you disagree with, and I'm of the _strong opinions, weakly held_ camp but this is drawn from real-world experience.
 
-## About the author
+## About the author, and contributors
 
 Orta Therox is a programmer at Artsy, and gave himself the title Design Dictator at the open source project CocoaPods. His interest in testing piqued when the Artsy mobile team shrank to just him and he realized that he's going to get the blame for everything from that point forward.
+
+There are a lot of times that I say we, meaning the Artsy Mobile team. I don't think I would be writing this book without these people contributing testing ideas to our codebase. Thanks Daniel Doubrovkine, Laura Brown, Ash Furrow and Dustin Barker. I owe you all.
 
 ## Who is it for?
 

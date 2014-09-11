@@ -26,8 +26,9 @@ An ebook about pragmatic testing strategies. You can grab the [epub here](https:
     * Network Stubbing ( OHTTP / VCRURLConnection )
 
 * Getting Setup
-* Introducing tests into an existing application
-* Starting a new application and using tests
+  * Introducing tests into an existing application
+  * Starting a new application and using tests
+  * Developer Operations aka Automation
 
 * Techniques for keeping testing code sane
   * Nested Before / After usage
@@ -71,12 +72,13 @@ An ebook about pragmatic testing strategies. You can grab the [epub here](https:
 | Topics | Last Updated |
 | -------|--------------|
 |[Core Data_migrations](core_data_migrations.md)|07 Sep|
-|[Getting Setup](getting_setup.md)|06 Sep|
-|[How Can_i_be_pragmatic](how_can_I_be_pragmatic.md)|07 Sep|
-|[Recommended Websites](recommended_websites.md)|06 Sep|
-|[Types Of_testing](types_of_testing.md)|07 Sep|
-|[What And_why](what_and_why.md)|07 Sep|
-|[What Is_xctest](what_is_xctest.md)|06 Sep|
+|[Getting Setup](getting_setup.md)|10 Sep|
+|[How Can_i_be_pragmatic](how_can_I_be_pragmatic.md)|08 Sep|
+|[Introducing Tests_into_an_existing_app](introducing_tests_into_an_existing_app.md)|10 Sep|
+|[Recommended Websites](recommended_websites.md)|07 Sep|
+|[Types Of_testing](types_of_testing.md)|10 Sep|
+|[What And_why](what_and_why.md)|10 Sep|
+|[What Is_xctest](what_is_xctest.md)|10 Sep|
 
 ##### Generating the ebook
 

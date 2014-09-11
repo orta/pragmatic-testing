@@ -8,7 +8,7 @@ If you don't have a test target in your application then you need to add one. Th
 
 ### Setting up your Podfile
 
-I'm presuming you already have a Podfile, if you don't consult the [CocoaPods Getting Started](http://guides.cocoapods.org/using/getting-started.html) guide. We're going to make changes to add testing tools. This means adding a section in the Podfile. These typically look like the following:
+I'm presuming you already have a Podfile, if you don't consult the [CocoaPods Getting Started](http://guides.cocoapods.org/using/getting-started.html) guide. We're going to make changes to add testing tools. This means adding a new section in the Podfile. These typically look like the following:
 
 ``` ruby
 pod 'ORStackView'
@@ -21,4 +21,8 @@ target :AppTests, :exclusive => true do
 end
 ```
 
-This links the testing Pods to only the test target. This inherits the apps CocoaPods, like ORStackView above, through the host but that CocoaPods will generate a second library for the testing pods like Specta.
+This links the testing Pods to only the test target. This inherits the app's CocoaPods, in this case ORStackView. CocoaPods will generate a second library for the testing pods Specta, Expecta and FBSnapshotTestCase. This means there's no duplication of library symbols.
+
+You can test that everything is working well together by either going to `Product > Test` in the menu or by pressing `⌘ + u`. This will compile your application, then run it and inject your testing bundle into the application.
+
+If that doesn't happen, it's likely that your Scheme is not set up correctly. Go to `Product > Scheme > Edit Scheme..` or press `⌘ + ⇧ + ,`. Then make sure that you have a valid test target set up for that scheme.

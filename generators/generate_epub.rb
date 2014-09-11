@@ -12,7 +12,9 @@ class Epub
       what_and_why.md
       what_is_xctest.md
       how_can_I_be_pragmatic.md
+      types_of_testing.md
       getting_setup.md
+      introducing_tests_into_an_existing_app.md
       recommended_websites.md
       core_data_migrations.md
     ]
