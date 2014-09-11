@@ -27,6 +27,7 @@ An ebook about pragmatic testing strategies. You can grab the [epub here](https:
 
 * Getting Setup
 * Introducing tests into an existing application
+* Starting a new application and using tests
 
 * Techniques for keeping testing code sane
   * Nested Before / After usage
