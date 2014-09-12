@@ -1,12 +1,12 @@
-### What is the XCTest framework?
+# What is the XCTest framework?
 
 Now as a default when you create a new Xcode project apple creates a test target for you. Testing has been a part of Xcode since [OCUnit](http://www.sente.ch/software/ocunit/) the predecessor to XCTest was included Xcode 2.1.
 
 XCTest owes it's architectural decisions to [SUnit](http://sunit.sourceforge.net) the first testing framework, built for smalltalk apps. OCUnit is an Objective-C implementation of SUnit.
 
-The <i>x</i>Unit format is quite simple, there are collections of test suites, which contain test cases. Test cases contain individual tests. A test runner is created which loops through all suites, their cases and runs known methods. If running the method raises an exception then that test is considered a failure, and the runner moves to the next method. The final part is a logger to output the results.
+The <i>x</i>Unit format is quite simple. There are collections of test suites, which contain test cases and test cases contain individual tests. A test runner is created which loops through all suites, their test cases and runs specific methods. If running the method raises an exception then that test is considered a failure, and the runner moves to the next method. The final part is a logger to output the results.
 
-In XCTest the convention is that you subclass a XCTestCase object, and the test runner will call any method that begins with the word `test`.
+In XCTest the convention is that you subclass a XCTestCase object, and the test runner will call any method that begins with the word `test`. E.g. `- (void)testImageSpecifiesAspectRatio`.
 
 The actual implementation of XCTest works by creating a bundle, which can optionally be injected into an application ( Apple calls this hosting the tests. ) The bundle contains test resources like dummy images or JSON, and your test code.
 

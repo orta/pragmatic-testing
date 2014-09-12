@@ -15,3 +15,10 @@ There are a lot of times that I say we, meaning the Artsy Mobile team. I don't t
 ## Who is it for?
 
 Anyone interested in applying tests to iOS applications. Which hopefully should be a large amount of people.
+
+
+## Swift or Objective-C?
+
+It's easy to get caught up in what's new, but in reality there's a lot of existing Objective-C code-bases out there. The majority of this book focuses on Objective-C testing tools, with hat tips given to Swift frameworks. However at the time of writing this book CocoaPods support for Swift is mostly non-existent, and I have only a few months of experience writing tests for Swift code.
+
+It would be disingenious for me to offer pragmatic advice without a solid foundation of my own to build on. At least I can offer that you can see live test code within an [Artsy Swift app called Eidolon](https://github.com/artsy/eidolon).

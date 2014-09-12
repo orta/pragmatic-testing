@@ -1,10 +1,12 @@
-We introduced tests into the first Artsy iOS App around the time that it hit 100,000 lines of code (including `Pods/`). The app was the product of a hard and unmovable deadline. We pushed out two patch releases after that then sat back to try and figure out how to switch make the app friendly to new developers to the platform.
+# Introducing Tests to an Existing App
+
+We introduced tests into the first Artsy iOS App around the time that it hit 100,000 lines of code (including `Pods/`). The app was the product of a hard and unmovable deadline. We pushed out two patch releases after that, then sat back to try and figure out how to switch make the app friendly to new developers.
 
 We introduced some ground rules:
 
-* All bugs get a test.
+* All bug fixes get a test.
 * Nearly all new code gets tested.
-* Code you touch should get cleaned, and tested.
+* Code you touch in the process should get cleaned, and tested.
 
 At the same time we agreed on a style change. Braces at the end of methods would move down to the next line. This meant we would know up-front whether code should be [considered legacy](http://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052) or not.
 

@@ -11,12 +11,16 @@ class Epub
     markdown_files = %w[
       what_and_why.md
       what_is_xctest.md
-      how_can_I_be_pragmatic.md
+      how_can_i_be_pragmatic.md
+      how_i_got_started.md
+      useful_terminology.md
       types_of_testing.md
       getting_setup.md
+      developer_operations.md
       introducing_tests_into_an_existing_app.md
       recommended_websites.md
       core_data_migrations.md
+      stubbed_core_data.md
     ]
 
     all_markdown = get_markdown_files

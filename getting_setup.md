@@ -1,4 +1,4 @@
-### Getting setup
+# Getting setup
 
 We're pragmatic, so we use [CocoaPods](http://cocoapods.org). It is a dependency manager for Cocoa projects, we're going to use it to pull in the required dependencies. If you're new to CocoaPods then yours truely and the rest of the CocoaPods dev team have an [extensive guides website](http://guides.cocoapods.org) to help you get started.
 

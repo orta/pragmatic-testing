@@ -35,7 +35,7 @@ An ebook about pragmatic testing strategies. You can grab the [epub here](https:
   * Creation of app-centric `it` blocks
   * Fixtures / Factories
 
-* Techniques for getting around Async Testing
+* Techniques for avoiding Async Testing
   * Networking in View Controllers ( Network Models )
   * Animations
   * Dispatch Asyncs ( ar_dispatch etc )
@@ -48,9 +48,8 @@ An ebook about pragmatic testing strategies. You can grab the [epub here](https:
   * iPad / iPhone
 
 * Core Data
-  * Assert on accessing main context
-  * Testing Migrations
   * Stubbed Core Data Contexts
+  * Testing Migrations
 
 * Making libraries to get annoying tests out of your app
 * Using Xcode pragmatically
@@ -71,14 +70,18 @@ An ebook about pragmatic testing strategies. You can grab the [epub here](https:
 
 | Topics | Last Updated |
 | -------|--------------|
-|[Core Data_migrations](core_data_migrations.md)|07 Sep|
-|[Getting Setup](getting_setup.md)|10 Sep|
-|[How Can_i_be_pragmatic](how_can_I_be_pragmatic.md)|08 Sep|
-|[Introducing Tests_into_an_existing_app](introducing_tests_into_an_existing_app.md)|10 Sep|
-|[Recommended Websites](recommended_websites.md)|07 Sep|
-|[Types Of_testing](types_of_testing.md)|10 Sep|
-|[What And_why](what_and_why.md)|10 Sep|
-|[What Is_xctest](what_is_xctest.md)|10 Sep|
+|[Core Data_migrations](core_data_migrations.md)|12 Sep|
+|[Developer Operations](developer_operations.md)|12 Sep|
+|[Getting Setup](getting_setup.md)|12 Sep|
+|[How Can_i_be_pragmatic](how_can_i_be_pragmatic.md)|12 Sep|
+|[How I_got_started](how_i_got_started.md)|12 Sep|
+|[Introducing Tests_into_an_existing_app](introducing_tests_into_an_existing_app.md)|12 Sep|
+|[Recommended Websites](recommended_websites.md)|12 Sep|
+|[Stubbed Core_data](stubbed_core_data.md)|12 Sep|
+|[Types Of_testing](types_of_testing.md)|12 Sep|
+|[Useful Terminology](useful_terminology.md)|12 Sep|
+|[What And_why](what_and_why.md)|12 Sep|
+|[What Is_xctest](what_is_xctest.md)|12 Sep|
 
 ##### Generating the ebook
 

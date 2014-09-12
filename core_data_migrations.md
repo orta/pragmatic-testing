@@ -1,3 +1,4 @@
+# Testing Core Data Migrations
 
 The first time I released a patch release for the first Artsy App it crashed instantly, on every install. It turned out I didn't understand [Core Data Model Versioning](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/CoreDataVersioning/Articles/Introduction.html). Now a few years on I grok the migration patterns better but I've still lived with the memories of that dark dark day. Since then I've had an informal rule of testing migrations with  all the old build of Folio using a tool I created called  [chairs](http://artsy.github.io/blog/2013/03/29/musical-chairs/) the day before submitting to the app store.
 
@@ -28,21 +29,7 @@ it(@"migrates from 1.3", ^{
     expect([Artwork countInContext:context error:nil]).to.beGreaterThan(0);
 });
 
-it(@"migrates from  1.3.5", ^{
-    expect(^{
-        context = ARContextWithVersionString(@"1.3.5");
-    }).toNot.raise(nil);
-    expect(context).to.beTruthy();
-    expect([Artwork countInContext:context error:nil]).to.beGreaterThan(0);
-});
-
-it(@"migrates from  1.4", ^{
-    expect(^{
-        context = ARContextWithVersionString(@"1.4");
-    }).toNot.raise(nil);
-    expect(context).to.beTruthy();
-    expect([Artwork countInContext:context error:nil]).to.beGreaterThan(0);
-});
+...
 
 it(@"migrates from  1.6", ^{
     expect(^{
