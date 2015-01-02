@@ -21,7 +21,7 @@ An ebook about pragmatic testing strategies. You can grab the [epub here](https:
     * Fakes ( + protocols )
 
 * Tooling for the types of testing
-  * Unit Testing ( Specta / Kiwi )
+  * Unit Testing ( Quick / Nimble )
   * Mocking / Stubbing ( OCMock / OCMockito )
     * Network Stubbing ( OHTTP / VCRURLConnection )
 
@@ -50,6 +50,14 @@ An ebook about pragmatic testing strategies. You can grab the [epub here](https:
 * Core Data
   * Stubbed Core Data Contexts
   * Testing Migrations
+
+* Testing Common Cocoa Patterns
+  * Delegate / Protocols
+  * Singletons
+  * Notifications
+  * KVO
+  * Networking
+  * MVC
 
 * Making libraries to get annoying tests out of your app
 * Using Xcode pragmatically
