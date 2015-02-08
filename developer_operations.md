@@ -18,11 +18,11 @@ We use a `Makefile` like its 1983. `Makefile`s are a very simple ancient mini-la
 
 ## Code Review
 
-Code Review is an important concept because it enforces a strong deliverable. It is a statement of action and an explaination behind the changes. I use github for both closed and open source code, so for me this is in the form of Pull Requests. Pulls Requests can be linked to, can close other issues on merging and have an extremely high-functioning toolset around code discussions.
+Code Review is an important concept because it enforces a strong deliverable. It is a statement of action and an explanation behind the changes. I use github for both closed and open source code, so for me Code Review is done in the form of Pull Requests. Pulls Requests can be linked to, can close other issues on merging and have an extremely high-functioning toolset around code discussions.
 
-When you prepare for a code review it is a reminder to refactor, and a second pair of eyes going over the entire code base. It's extremely useful when there is more than two people, or one project as it allows context sharing when someone isn't working daily on a project.
+When you prepare for a code review it is a reminder to refactor, and a chance for you to give your changes a second look. It's obviously useful for when there are multiple people on a project ( in which case it is a good idea to have different people do code reviews each time ) but there’s also value in using code reviews to keep someone else in the loop for features that affect them.
 
-Finally Code Review is a really useful teaching tool. When new developers were expressed interest in working on the mobile team then I would assign them merge rights on smaller Pull Requests and explain everything going on. Giving the merger the chance to get exposure to the langauge before having to write any themselves.
+Finally Code Review is a really useful teaching tool. When new developers were expressed interest in working on the mobile team then I would assign them merge rights on smaller Pull Requests and explain everything going on. Giving the merger the chance to get exposure to the language before having to write any themselves.
 
 ## Continuous Integration
 
