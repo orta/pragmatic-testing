@@ -78,18 +78,20 @@ An ebook about pragmatic testing strategies. You can grab the [epub here][1] - i
 
 | Topics | Last Updated |
 | -------|--------------|
-|[Core Data\_migrations][2]|12 Sep|
-|[Developer Operations][3]|12 Sep|
-|[Getting Setup][4]|12 Sep|
-|[How Can\_i\_be\_pragmatic][5]|12 Sep|
-|[How I\_got\_started][6]|12 Sep|
-|[Introducing Tests\_into\_an\_existing\_app][7]|12 Sep|
-|[Recommended Websites][8]|12 Sep|
-|[Stubbed Core\_data][9]|12 Sep|
-|[Types Of\_testing][10]|12 Sep|
-|[Useful Terminology][11]|12 Sep|
-|[What And\_why][12]|12 Sep|
-|[What Is\_xctest][13]|12 Sep|
+|[- Tooling For_different_types_of_testing](- Tooling_for_different_types_of_testing.md)|08 Feb|
+|[Core Data_migrations](core_data_migrations.md)|11 Sep|
+|[Developer Operations](developer_operations.md)|07 Feb|
+|[Getting Setup](getting_setup.md)|11 Sep|
+|[How Can_i_be_pragmatic](how_can_i_be_pragmatic.md)|07 Feb|
+|[How I_got_started](how_i_got_started.md)|11 Sep|
+|[Introducing Tests_into_an_existing_app](introducing_tests_into_an_existing_app.md)|07 Feb|
+|[Recommended Websites](recommended_websites.md)|11 Sep|
+|[Stubbed Core_data](stubbed_core_data.md)|07 Feb|
+|[Techniques For_avoiding_async_testing](Techniques_for_avoiding_Async_Testing.md)|07 Feb|
+|[Types Of_testing](types_of_testing.md)|11 Sep|
+|[Useful Terminology](useful_terminology.md)|11 Sep|
+|[What And_why](what_and_why.md)|11 Sep|
+|[What Is_xctest](what_is_xctest.md)|11 Sep|
 
 ##### Generating the ebook
 
