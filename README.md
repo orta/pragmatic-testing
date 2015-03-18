@@ -78,18 +78,19 @@ An ebook about pragmatic testing strategies. You can grab the [epub here][1] - i
 
 | Topics | Last Updated |
 | -------|--------------|
-|[- Tooling For_different_types_of_testing](- Tooling_for_different_types_of_testing.md)|08 Feb|
-|[Core Data_migrations](core_data_migrations.md)|11 Sep|
-|[Developer Operations](developer_operations.md)|07 Feb|
+|[Core Data_migrations](core_data_migrations.md)|17 Mar|
+|[Dependency Injection](dependency_injection.md)|17 Mar|
+|[Developer Operations](developer_operations.md)|17 Mar|
 |[Getting Setup](getting_setup.md)|11 Sep|
 |[How Can_i_be_pragmatic](how_can_i_be_pragmatic.md)|07 Feb|
 |[How I_got_started](how_i_got_started.md)|11 Sep|
 |[Introducing Tests_into_an_existing_app](introducing_tests_into_an_existing_app.md)|07 Feb|
-|[Recommended Websites](recommended_websites.md)|11 Sep|
-|[Stubbed Core_data](stubbed_core_data.md)|07 Feb|
+|[Recommended Websites](recommended_websites.md)|17 Mar|
+|[Stubbed Core_data](stubbed_core_data.md)|17 Mar|
 |[Techniques For_avoiding_async_testing](Techniques_for_avoiding_Async_Testing.md)|07 Feb|
-|[Types Of_testing](types_of_testing.md)|11 Sep|
-|[Useful Terminology](useful_terminology.md)|11 Sep|
+|[Tooling For_different_types_of_testing](Tooling_for_different_types_of_testing.md)|17 Mar|
+|[Types Of_testing](types_of_testing.md)|17 Mar|
+|[Useful Terminology](useful_terminology.md)|17 Mar|
 |[What And_why](what_and_why.md)|11 Sep|
 |[What Is_xctest](what_is_xctest.md)|11 Sep|
 
