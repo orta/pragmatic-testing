@@ -1,6 +1,6 @@
 # Testing Core Data Migrations
 
-The first time I released a patch release for the first Artsy App it crashed instantly, on every install. It turned out I didn't understand [Core Data Model Versioning](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/CoreDataVersioning/Articles/Introduction.html). Now a few years on I grok the migration patterns better but I've still lived with the memories of that dark dark day. Since then I've had an informal rule of testing migrations with  all the old build of Folio using a tool I created called  [chairs](http://artsy.github.io/blog/2013/03/29/musical-chairs/) the day before submitting to the app store.
+The first time I released a patch release for the first Artsy App it crashed instantly, on every install. It turned out I didn't understand [Core Data Model Versioning](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/CoreDataVersioning/Articles/Introduction.html). Now a few years on I grok the migration patterns better but I've still lived with the memories of that dark, dark day. Since then I've had an informal rule of testing migrations with  all the old build of Folio using a tool I created called  [chairs](http://artsy.github.io/blog/2013/03/29/musical-chairs/) the day before submitting to the app store.
 
 Chairs is a tool to back up your application's documents and settings. This meant I would have backups from different builds and could have a simulator with data from past versions without having to compile and older build.
 

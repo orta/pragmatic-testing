@@ -1,8 +1,6 @@
 # Types of Testing
 
-A test is a way of verifying code, and making your assumptions explicit. When you make a change somewhere tests exist to show the implicit connections between objects. In the ruby world the tests are basically considered the application's documentation.
-
-There's a
+A test is a way of verifying code, and making your assumptions explicit. When you make a change somewhere tests exist to show the implicit connections between objects. In the ruby world the tests are basically considered the application's documentation. This is in general because the language does not have a compiler, types or static analysis.
 
 ### Unit Testing
 
