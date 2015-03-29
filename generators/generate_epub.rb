@@ -15,12 +15,17 @@ class Epub
       how_i_got_started.md
       useful_terminology.md
       types_of_testing.md
+      Three_Types_of_Unit_Tests.md 
       getting_setup.md
+      Tooling_for_different_types_of_testing.md
       developer_operations.md
       introducing_tests_into_an_existing_app.md
-      recommended_websites.md
+      dependency_injection.md 
+      testing_delegates.md 
+      Techniques_for_avoiding_Async_Testing.md 
       core_data_migrations.md
       stubbed_core_data.md
+      recommended_websites.md
     ]
 
     all_markdown = get_markdown_files

@@ -42,6 +42,22 @@ Travis CI is configured entirely via a `.travis.yml` file in your repo which is 
 
 #### Xcode Bots
 
-Xcode bots is still a bit of a mystery, though it looks like with it's second release it is now at a point where it is usable. It features before and after scripts so you can get it set up
+Xcode bots is still a bit of a mystery, though it looks like with it's second release it is now at a point where it is usable. It features before and after scripts so you can get it set up properly 
 
-## Deployment
+#### Buildkite 
+
+Travis is awesome, but they’re pretty slow with releases. Buildkite lets you run your own travis-like CI system on your own hardware. This means easily running tests for Xcode betas. It differs from Jenkins in it’s simplicty. It requires significanly less setup, and looks like it may require less maintainace overall.
+
+## Internal Deployment
+
+I don’t trust Apple’s Testflight service, it seems to be that there’s a problem with it everyday.
+
+I trust in solid, mature processes when it is your apps first impression. I deploy the internal versions of our applications as enterprise applications so that anyone in our company can get the application with just a URL.
+
+We deploy to HockeyApp via a Makefile command, this 
+
+## iTunes deployment
+
+It’s been a good year for deployment to the App Store, as [Felix Krause](http://www.krausefx.com) released a series of command line tools to do everything from generating snapshots to deploying to iTunes. This suite of tools is called [Fastlane](https://fastlane.tools) and I can’t recommend it enough.
+
+Getting past the mental barrier of presuming an iTunes deploy takes a long time means that you feel more comfortable releasing new builds often. More builds means less major breaking changes,  reducing problem surface area between versions.
