@@ -29,6 +29,7 @@ An ebook about pragmatic testing strategies. You can grab the [epub here](https:
 * Getting Setup
   * Introducing tests into an existing application
   * Starting a new application and using tests
+  * My tests are running in my app?
   * Developer Operations aka Automation
 
 * Techniques for keeping testing code sane
