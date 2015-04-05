@@ -1,7 +1,9 @@
-A Pragmatic Approach to Testing
+A Pragmatic Approach to iOS Testing
 ===============
 
-An ebook about pragmatic testing strategies. You can grab the [epub here](https://github.com/orta/pragmatic-testing/blob/master/pragmatic_testing.epub?raw=true) - it's usually up to date.
+An ebook about pragmatic testing strategies. Click below to get the latest epub.
+
+[ ![Image](assets/Cover.png "Pragmatic iOS Testing") ](https://github.com/orta/pragmatic-testing/blob/master/pragmatic_testing.epub?raw=true "Download epub")
 
 ##### Prospective Pages
 
@@ -80,21 +82,21 @@ An ebook about pragmatic testing strategies. You can grab the [epub here](https:
 
 | Topics | Last Updated |
 | -------|--------------|
-|[Core Data_migrations](core_data_migrations.md)|17 Mar|
+|[Core Data_migrations](core_data_migrations.md)|31 Mar|
 |[Dependency Injection](dependency_injection.md)|29 Mar|
 |[Developer Operations](developer_operations.md)|29 Mar|
 |[Getting Setup](getting_setup.md)|29 Mar|
 |[How Can_i_be_pragmatic](how_can_i_be_pragmatic.md)|29 Mar|
-|[How I_got_started](how_i_got_started.md)|29 Mar|
-|[Introducing Tests_into_an_existing_app](introducing_tests_into_an_existing_app.md)|07 Feb|
+|[How I_got_started](how_i_got_started.md)|02 Apr|
+|[Introducing Tests_into_an_existing_app](introducing_tests_into_an_existing_app.md)|02 Apr|
 |[Recommended Websites](recommended_websites.md)|17 Mar|
 |[Stubbed Core_data](stubbed_core_data.md)|17 Mar|
-|[Techniques For_avoiding_async_testing](Techniques_for_avoiding_Async_Testing.md)|07 Feb|
+|[Techniques For_avoiding_async_testing](Techniques_for_avoiding_Async_Testing.md)|02 Apr|
 |[Testing Delegates](testing_delegates.md)|29 Mar|
-|[Three Types_of_unit_tests](Three_Types_of_Unit_Tests.md)|29 Mar|
+|[Three Types_of_unit_tests](Three_Types_of_Unit_Tests.md)|04 Apr|
 |[Tooling For_different_types_of_testing](Tooling_for_different_types_of_testing.md)|29 Mar|
 |[Types Of_testing](types_of_testing.md)|17 Mar|
-|[Useful Terminology](useful_terminology.md)|17 Mar|
+|[Useful Terminology](useful_terminology.md)|02 Apr|
 |[What And_why](what_and_why.md)|11 Sep|
 |[What Is_xctest](what_is_xctest.md)|11 Sep|
 
