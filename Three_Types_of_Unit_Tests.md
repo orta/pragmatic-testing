@@ -8,7 +8,7 @@ There are commonly three types of Unit Tests, we’ll be taking the examples dir
 ```
 `it(@"sets up its properties upon initialization", ^{
 // Arrange + Act
-ARShowNetworkModel *model = [\[ARShowNetworkModel alloc]() initWithFair:fair show:show];
+ARShowNetworkModel *model = [[ARShowNetworkModel alloc]() initWithFair:fair show:show];
 
 // Assert
 expect(model.show).to.equal(show);
@@ -25,7 +25,7 @@ You can setup your subject of the test, make a change to it, and check the retur
 ```
 `it(@"changes selected to deselected", ^{
 // Arrange
-ARAnimatedTickView *tickView = [\[ARAnimatedTickView alloc]() initWithSelection:YES];
+ARAnimatedTickView *tickView = [[ARAnimatedTickView alloc]() initWithSelection:YES];
 
 // Act
 [tickView setSelected:NO animated:NO]();
@@ -48,11 +48,11 @@ An interaction test is more interesting because it usually involves more than ju
 `it(@"adds Twitter handle for Twitter", ^{
 
 // Arrange
-provider = [\[ARMessageItemProvider alloc]() initWithMessage:placeHolderMessage path:path];
+provider = [[ARMessageItemProvider alloc]() initWithMessage:placeHolderMessage path:path];
 
 // Act
 providerMock = [OCMockObject partialMockForObject:provider]();
-[\[\[providerMock stub]() andReturn:UIActivityTypePostToTwitter] activityType];
+[[[providerMock stub]() andReturn:UIActivityTypePostToTwitter] activityType];
 
 // Assert
 expect([provider item]()).to.equal(@"So And So on @Artsy");

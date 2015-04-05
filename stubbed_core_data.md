@@ -29,7 +29,7 @@ static BOOL ARRunningUnitTests = NO;
 	}
 	...
 }
-\`\`\`
+```
 
 This is something you want to do early on in writing your tests. The later you do it the large the changes you will have to make in your existing code base to move all objects to accept Stubbed Managed Object Contexts via Dependency Injection. It took me two days to migrate all of the code currently covered by tests to do this.
 
@@ -37,7 +37,7 @@ This is something you want to do early on in writing your tests. The later you d
 
 Databases are fast. Datastores are slow. You want to keep your tests fast. This means being able to create and destory whole Core Data stacks hundreds of times a second. The only way to do this reasonably is to store a copy of the Managed Object Store in memory, and to make the persistant store be memory based too. Lets look at an implementation:
 
-\`\`\`
+```
 + (NSManagedObjectContext \*)stubbedManagedObjectContext
 {
 	NSDictionary *options = @{
@@ -60,6 +60,6 @@ Databases are fast. Datastores are slow. You want to keep your tests fast. This 
 	return context;
 }
 
-\`\`\`
+```
 
 This returns a fast, empty core data stack.

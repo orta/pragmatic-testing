@@ -11,8 +11,8 @@ Typically they aim to be familiar to people who have written test using [RSpec](
 
 So for example, this is a testing scaffold for the BDD framework Specta:
 
-\`\`\` objc
-\`describe(@"ipad rotation support”, ^{
+``` objc
+`describe(@"ipad rotation support”, ^{
   it(@“changes the bounds of header”, ^{
 	/// Test code
   });
@@ -21,14 +21,14 @@ So for example, this is a testing scaffold for the BDD framework Specta:
 	/// Test code
   });
 });
-\`\`\`
+```
 
 and these are example matchers for its sibling library Expecta:
 
-\`\`\` objc
+``` objc
 expect(stackView.subviews.count).will.equal(6);
 expect(stackView.subviews[0]()).to.beKindOf([UILabel class]());
-\`\`\`
+```
 
 #### The list
 

@@ -11,19 +11,19 @@ We introduced some ground rules:
 At the same time we agreed on a style change. Braces at the end of methods would move down to the next line. This meant we would know up-front whether code should be [considered legacy][1] or not.
 
 Needs tests
-\`\`\`
+```
 - (void)method {
   ...
 }
-\`\`\`
+```
 
 Covered
-\`\`\`
+```
 - (void)method
 {
   ...
 }
-\`\`\`
+```
 
 This style change was agreed on throughout our apps as a reminder that there was work to be done.
 

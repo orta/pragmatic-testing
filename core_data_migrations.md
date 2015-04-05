@@ -22,27 +22,27 @@ SpecBegin(ARAppDataMigrations)
 __block NSManagedObjectContext *context;
 
 it(@"migrates from 1.3", ^{
-    expect(^{
-        context = ARContextWithVersionString(@"1.3");
-    }).toNot.raise(nil);
-    expect(context).to.beTruthy();
-    expect([Artwork countInContext:context error:nil]).to.beGreaterThan(0);
+  expect(^{
+      context = ARContextWithVersionString(@"1.3");
+  }).toNot.raise(nil);
+  expect(context).to.beTruthy();
+  expect([Artwork countInContext:context error:nil]).to.beGreaterThan(0);
 });
 
 ...
 
 it(@"migrates from  1.6", ^{
-    expect(^{
-        context = ARContextWithVersionString(@"1.4");
-    }).toNot.raise(nil);
-    expect(context).to.beTruthy();
-    expect([Artwork countInContext:context error:nil]).to.beGreaterThan(0);
+  expect(^{
+      context = ARContextWithVersionString(@"1.4");
+  }).toNot.raise(nil);
+  expect(context).to.beTruthy();
+  expect([Artwork countInContext:context error:nil]).to.beGreaterThan(0);
 });
 
 SpecEnd
 
 NSManagedObjectContext *ARContextWithVersionString(NSString *string) {
-
+  
     // Allow it to migrate
     NSDictionary *options = @{
         NSMigratePersistentStoresAutomaticallyOption: @YES,

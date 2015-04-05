@@ -10,7 +10,7 @@ If you don't have a test target in your application then you need to add one. Th
 
 I'm presuming you already have a Podfile, if you don't consult the [CocoaPods Getting Started](http://guides.cocoapods.org/using/getting-started.html) guide. We're going to make changes to add testing tools. This means adding a new section in the Podfile. These typically look like the following:
 
-\`\`\` ruby
+``` ruby
 pod 'ORStackView'
 ...
 
@@ -19,7 +19,7 @@ target :AppTests, :exclusive =\> true do
 	pod 'Expecta'
 	pod 'FBSnapshotTestCase'
 end
-\`\`\`
+```
 
 This links the testing Pods to only the test target. This inherits the app's CocoaPods, in this case ORStackView. CocoaPods will generate a second library for the testing pods Specta, Expecta and FBSnapshotTestCase. This means there's no duplication of library symbols.
 
