@@ -82,21 +82,21 @@ An ebook about pragmatic testing strategies. Click below to get the latest epub.
 
 | Topics | Last Updated |
 | -------|--------------|
-|[Core Data_migrations](core_data_migrations.md)|31 Mar|
-|[Dependency Injection](dependency_injection.md)|29 Mar|
+|[Core Data_migrations](core_data_migrations.md)|04 Apr|
+|[Dependency Injection](dependency_injection.md)|04 Apr|
 |[Developer Operations](developer_operations.md)|29 Mar|
-|[Getting Setup](getting_setup.md)|29 Mar|
-|[How Can_i_be_pragmatic](how_can_i_be_pragmatic.md)|29 Mar|
-|[How I_got_started](how_i_got_started.md)|02 Apr|
-|[Introducing Tests_into_an_existing_app](introducing_tests_into_an_existing_app.md)|02 Apr|
+|[Getting Setup](getting_setup.md)|04 Apr|
+|[How Can_i_be_pragmatic](how_can_i_be_pragmatic.md)|04 Apr|
+|[How I_got_started](how_i_got_started.md)|04 Apr|
+|[Introducing Tests_into_an_existing_app](introducing_tests_into_an_existing_app.md)|04 Apr|
 |[Recommended Websites](recommended_websites.md)|17 Mar|
-|[Stubbed Core_data](stubbed_core_data.md)|17 Mar|
-|[Techniques For_avoiding_async_testing](Techniques_for_avoiding_Async_Testing.md)|02 Apr|
+|[Stubbed Core_data](stubbed_core_data.md)|04 Apr|
+|[Techniques For_avoiding_async_testing](Techniques_for_avoiding_Async_Testing.md)|04 Apr|
 |[Testing Delegates](testing_delegates.md)|29 Mar|
 |[Three Types_of_unit_tests](Three_Types_of_Unit_Tests.md)|04 Apr|
-|[Tooling For_different_types_of_testing](Tooling_for_different_types_of_testing.md)|29 Mar|
+|[Tooling For_different_types_of_testing](Tooling_for_different_types_of_testing.md)|04 Apr|
 |[Types Of_testing](types_of_testing.md)|17 Mar|
-|[Useful Terminology](useful_terminology.md)|02 Apr|
+|[Useful Terminology](useful_terminology.md)|04 Apr|
 |[What And_why](what_and_why.md)|11 Sep|
 |[What Is_xctest](what_is_xctest.md)|11 Sep|
 

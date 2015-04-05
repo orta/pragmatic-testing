@@ -4,7 +4,7 @@ Dependency Injection (DI, from here on in) is a way of dealing with how you keep
 
 > Dependency injection means giving an object its instance variables. Really. That's it.
 
-This alone isn't really enough to get started though. So let's get out some code and investigate what that really means. 
+This alone isn't really enough to get started though. So let's get out some code and investigate what that really means.
 
 ### DI in a function
 
@@ -28,32 +28,32 @@ Testing this code can be tricky, as it relies on functions inside the `NSUserDef
 	 [defaults setBool:YES forKey:@"injected"];
  }
  ```
- 
+
  This means that in order to test this function, we can inject a new instance of both arguments and test the end results of them. Something like:
- 
+
  ``` objc
 it(@"saves user defaults", ^{
 	NSUserDefaults *defaults = [[NSUserDefaults alloc] init];
 	User *user = [User stubbedUser];
 	UserArchiver *archiver = [[UserArchiver alloc] init];
-	
+
 	[archiver saveUser:user inDefaults:defaults];
-	
+
 	expect([user dictionaryRepresentation]).to.equal([defaults objectForKey:@"user"]);
 	expect([defaults boolForKey:@"injected"]).to.equal(YES);
 });
  ```
- 
+
  We can now easily test the changes from the function.
- 
+
 ## DI in an object
- 
+
  Let's expand out a bit more into an object, this is going to require a bit more code.
- 
+
  ``` objc
 
 @interface ORUserNameTableViewController: UITableViewController
-@property (nonatomic, copy) NSArray \*names;
+@property (nonatomic, copy) NSArray *names;
 @end
 
 @implementation ORUserNameTableViewController
@@ -63,7 +63,7 @@ it(@"saves user defaults", ^{
 @end
 
 ```
- 
+
 ...
 
 

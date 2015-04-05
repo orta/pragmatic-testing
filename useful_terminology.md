@@ -6,7 +6,9 @@ A mock object is an object created by a library to emulate an existing object's 
 
 A stub is a method that is replaced at runtime with another implementation. It is common for a stub to not call the original method. It's useful in setting up context for when you want to use known a return value with a method.
 
-From a personal opinion I try to avoid stubbing and mocking code which is under my control. When you first get started Mocks and Stubs feel like the perfect tool for testing code, but it becomes unweidly. Great examples of when to use stubbing is on
+From a personal opinion I try to avoid stubbing and mocking code which is under my control. When you first get started Mocks and Stubs feel like the perfect tool for testing code, but it becomes unweidly.
+
+Great examples of when to use stubbing is when dealing with an Apple class that you cannot easily replace or use your own copy, for example UIScreen.
 
 ### Fakes
 
@@ -33,7 +35,7 @@ In this example there is an implicit dependency on the `NSUserDefaults standardU
 
 ``` objc
 @interface ARAdminSettingsViewController ()
-@property (nonatomic, strong) NSUserDefaults \*defaults;
+@property (nonatomic, strong) NSUserDefaults *defaults;
 @end
 
 - (void)setDefaultUsername
@@ -41,7 +43,7 @@ In this example there is an implicit dependency on the `NSUserDefaults standardU
   [self.defaults setObject:@"Danger" forKey:ARUsername];
 }
 
-- (NSUserDefaults \*)defaults
+- (NSUserDefaults *)defaults
 {
 	return _defaults ? : [NSUserDefaults standardUserDefaults];
 }

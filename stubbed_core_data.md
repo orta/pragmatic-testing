@@ -8,7 +8,7 @@ This meant changes inside the tests would affect development. This is a big no-n
 
 In my Core Data stack I use a `CoreDataManager` and the factory pattern. This means I can add some logic to my manager to raise an exception when it is running in tests. You can do this very easily by checking the `NSProcessInfo` class.
 
-\`\\`\` objc
+``` objc
 
 static BOOL ARRunningUnitTests = NO;
 
@@ -22,7 +22,7 @@ static BOOL ARRunningUnitTests = NO;
 	}
 }
 
-+ (NSManagedObjectContext \*)mainManagedObjectContext
++ (NSManagedObjectContext *)mainManagedObjectContext
 {
 	if (ARRunningUnitTests) {
 	    @throw [NSException exceptionWithName:@"ARCoreDataError" reason:@"Nope - you should be using a stubbed context in tests." userInfo:nil];
@@ -38,23 +38,23 @@ This is something you want to do early on in writing your tests. The later you d
 Databases are fast. Datastores are slow. You want to keep your tests fast. This means being able to create and destory whole Core Data stacks hundreds of times a second. The only way to do this reasonably is to store a copy of the Managed Object Store in memory, and to make the persistant store be memory based too. Lets look at an implementation:
 
 ```
-+ (NSManagedObjectContext \*)stubbedManagedObjectContext
++ (NSManagedObjectContext *)stubbedManagedObjectContext
 {
 	NSDictionary *options = @{
 	    NSMigratePersistentStoresAutomaticallyOption : @(YES),
 	    NSInferMappingModelAutomaticallyOption : @(YES)
 	};
-	
+
 	NSError *error = nil;
 	NSManagedObjectModel *model = [CoreDataManager managedObjectModel];
 	NSPersistentStoreCoordinator *persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:model];
-	
+
 	[persistentStoreCoordinator addPersistentStoreWithType:NSInMemoryStoreType
 	                                              configuration:nil
 	                                                        URL:nil
 	                                                    options:options
 	                                                      error:&error];
-	
+
 	NSManagedObjectContext *context = [[NSManagedObjectContext alloc] init];
 	context.persistentStoreCoordinator = persistentStoreCoordinator;
 	return context;
