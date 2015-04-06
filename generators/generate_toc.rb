@@ -22,7 +22,7 @@ class TableOfContents
 
 def add_markdown_files_to template
     mdfiles = []
-    Dir.foreach('.') do |item|
+    Dir.foreach('./chapters') do |item|
       next if item == '.' or item == '..'
       next if item[-2..-1] != "md"
       next if item == "README.md"
@@ -31,8 +31,8 @@ def add_markdown_files_to template
     end
 
     mdfiles.each do |mdfile|
-      title = mdfile[0..-4].sub("_", " ").gsub(/\w+/) { |word| word.capitalize }.gsub("Ios", "iOS")
-      last_updated = File.ctime(mdfile).strftime("%d %b")
+      title = mdfile[0..-4].gsub("_", " ").gsub(/\w+/) { |word| word.capitalize }.gsub("Ios", "iOS")
+      last_updated = File.ctime("./chapters/" + mdfile).strftime("%d %b")
 
       template += "|[#{title}](#{mdfile})|#{last_updated}|\n"
     end

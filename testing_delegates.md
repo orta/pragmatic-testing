@@ -1,4 +1,0 @@
-
-## Patterns for Testing Protocols
-
-

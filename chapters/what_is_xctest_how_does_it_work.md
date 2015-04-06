@@ -14,7 +14,7 @@ XCTest provides a series of macros [based on OCUnit's](https://github.com/jy/Sen
 
 ##### What is the difference between hosted test targets and unhosted
 
-The terminology has changed recently, a hosted test used to be known as Application Tests, and unhosted was known as Logic Tests. The older terminolgy gives a better hint at how the tests would be ran. A hosted test is ran inside your application after it `application:didFinishLaunchingWithOptions:` has finished.
+The terminology has changed recently, a hosted test used to be known as Application Tests, and unhosted was known as Logic Tests. The older terminology gives a better hint at how the tests would be ran. A hosted test is ran inside your application after it `application:didFinishLaunchingWithOptions:` has finished.
 
 Unhosted tests are useful if you're testing something very ephemeral and relying only on Foundation, but anything related to UIKit subclasses will eventually require you to host the test bundle in an application.
 
