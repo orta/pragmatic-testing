@@ -90,4 +90,4 @@ Nothing too surprising, but I think it's important to note that these tests are 
 
 These are tests that presume you still have people using older builds, every now and again when I'm looking at Analytics I check to see if any of these test can be removed.
 
-Finally, if you don't use Core Data you may still need to be aware of changes around model migrations when storing using `NSKeyedArchiver`. It is a lot harder to have generic future-proofed test cases like the ones described here however.
+Finally, if you don't use Core Data you may still need to be aware of changes around model migrations when storing using `NSKeyedArchiver`. It is a lot harder to have generic future-proofed test cases like the ones described here however. Here is an example [in eigen](https://github.com/artsy/eigen/blob/2f3aae2c9db93348f845f5dbe87fc93712d04dcf/Artsy%20Tests/ArtworkTests.m#L90-L100).
