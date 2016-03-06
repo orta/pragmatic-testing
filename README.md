@@ -81,7 +81,7 @@ An ebook about pragmatic testing strategies. Click below to get the latest epub.
 ##### Existing Pages
 
 | Topics | Last Updated | Length | 
-| -------|--------------|
+| -------|----|--|
 |[Animations](chapters/animations.md)|2015-07-25|Words: 135|
 |[Assert On Accessing Main Context](chapters/assert_on_accessing_main_context.md)|2015-04-05|Words: 0|
 |[Behavior Testing](chapters/behavior_testing.md)|2015-04-05|Words: 0|

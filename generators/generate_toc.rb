@@ -11,7 +11,7 @@ class TableOfContents
     rest = readme.split(start_split)[1]
     finale = rest.split(end_split)[1]
 
-    template = start_split + "\n\n| Topics | Last Updated | Length | \n| -------|--------------|\n"
+    template = start_split + "\n\n| Topics | Last Updated | Length | \n| -------|----|--|\n"
 
     template = add_markdown_files_to template
 
