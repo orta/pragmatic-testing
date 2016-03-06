@@ -32,7 +32,7 @@ def add_markdown_files_to template
 
     mdfiles.each do |mdfile|
       title = mdfile[0..-4].gsub("_", " ").gsub(/\w+/) { |word| word.capitalize }.gsub("Ios", "iOS")
-      last_updated = File.ctime("./chapters/" + mdfile).strftime("%d %b %Y")
+      last_updated = `git log -1  --date=short --pretty=format:"%ad" ./chapters/#{mdfile}`
 
       template += "|[#{title}](chapters/#{mdfile})|#{last_updated}|\n"
     end
