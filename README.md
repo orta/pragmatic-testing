@@ -5,6 +5,8 @@ An ebook about pragmatic testing strategies. Click below to get the latest epub.
 
 [ ![Image](assets/Cover.png "Pragmatic iOS Testing") ](https://github.com/orta/pragmatic-testing/blob/master/pragmatic_testing.epub?raw=true "Download epub")
 
+Or check [it on GitBook](https://www.gitbook.com/book/orta/pragmatic-ios-testing/details).
+
 ##### Prospective Pages
 
 * What & Why of the book
@@ -80,7 +82,7 @@ An ebook about pragmatic testing strategies. Click below to get the latest epub.
 
 ##### Existing Pages
 
-| Topics | Last Updated | Length | 
+| Topics | Last Updated | Length |
 | -------|----|-----|
 |[Animations](chapters/animations.md)|2015-07-25|Words: 135|
 |[Assert On Accessing Main Context](chapters/assert_on_accessing_main_context.md)|2015-04-05|Words: 0|
