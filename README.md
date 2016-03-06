@@ -121,6 +121,7 @@ An ebook about pragmatic testing strategies. Click below to get the latest epub.
 |[Techniques For Keeping Testing Code Sane](chapters/techniques_for_keeping_testing_code_sane.md)|2015-04-05|Words: 0|
 |[Techniques For Testing Different Aspects Of The App](chapters/techniques_for_testing_different_aspects_of_the_app.md)|2015-04-05|Words: 0|
 |[Test Driven Development](chapters/test_driven_development.md)|2015-04-05|Words: 0|
+|[Testing Delegates](chapters/testing_delegates.md)||Words: 114|
 |[Testing Migrations](chapters/testing_migrations.md)|2015-04-05|Words: 0|
 |[Testing Terminology](chapters/testing_terminology.md)|2015-04-05|Words: 0|
 |[Three Types Of Unit Tests](chapters/Three_Types_of_Unit_Tests.md)|2015-04-05|Words: 296|
