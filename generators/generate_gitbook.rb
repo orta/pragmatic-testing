@@ -11,7 +11,7 @@ class GitBook
     markdown_files.each do |path|
       title = path[0..-4].gsub("_", " ").gsub(/\w+/) { |word| word.capitalize }.gsub("Ios", "iOS")
 
-      body += "* [#{title}](path)\n"
+      body += "* [#{title}](#{path})\n"
     end
 
     File.open("gitbook_summary.md", 'w') { |f| f.write body }

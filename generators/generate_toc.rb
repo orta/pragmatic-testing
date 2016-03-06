@@ -11,7 +11,7 @@ class TableOfContents
     rest = readme.split(start_split)[1]
     finale = rest.split(end_split)[1]
 
-    template = start_split + "\n\n| Topics | Last Updated |\n| -------|--------------|\n"
+    template = start_split + "\n\n| Topics | Last Updated | Length | \n| -------|--------------|\n"
 
     template = add_markdown_files_to template
 
@@ -33,8 +33,9 @@ def add_markdown_files_to template
     mdfiles.each do |mdfile|
       title = mdfile[0..-4].gsub("_", " ").gsub(/\w+/) { |word| word.capitalize }.gsub("Ios", "iOS")
       last_updated = `git log -1  --date=short --pretty=format:"%ad" ./chapters/#{mdfile}`
+      words = `wc -w ./chapters/#{mdfile}`.split(" ").first
 
-      template += "|[#{title}](chapters/#{mdfile})|#{last_updated}|\n"
+      template += "|[#{title}](chapters/#{mdfile})|#{last_updated}|Words: #{words}|\n"
     end
 
     template

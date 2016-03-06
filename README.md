@@ -80,63 +80,63 @@ An ebook about pragmatic testing strategies. Click below to get the latest epub.
 
 ##### Existing Pages
 
-| Topics | Last Updated |
+| Topics | Last Updated | Length | 
 | -------|--------------|
-|[Animations](chapters/animations.md)|2015-07-25|
-|[Assert On Accessing Main Context](chapters/assert_on_accessing_main_context.md)|2015-04-05|
-|[Behavior Testing](chapters/behavior_testing.md)|2015-04-05|
-|[Books](chapters/books.md)|2015-04-05|
-|[Core Data](chapters/core_data.md)|2015-04-05|
-|[Core Data Migrations](chapters/core_data_migrations.md)|2015-07-30|
-|[Creation Of App-Centric It Blocks](chapters/creation_of_app-centric_it_blocks.md)|2015-04-05|
-|[Dependency Injection](chapters/dependency_injection.md)|2015-04-05|
-|[Developer Operations Aka Automation](chapters/developer_operations_aka_automation.md)|2015-04-05|
-|[Di](chapters/di.md)|2015-04-05|
-|[Dispatch Asyncs  Ar Dispatch Etc](chapters/dispatch_asyncs__ar_dispatch_etc.md)|2015-07-25|
-|[Expanding On Specta And Expecta](chapters/expanding_on_specta_and_expecta.md)|2015-04-05|
-|[Fakes  Plus Protocols ](chapters/fakes__plus_protocols_.md)|2015-04-05|
-|[Fixtures And Factories](chapters/fixtures_and_factories.md)|2015-04-05|
-|[Getting Setup](chapters/getting_setup.md)|2015-04-05|
-|[How Can I Be Pragmatic With My Testing](chapters/how_can_i_be_pragmatic_with_my_testing.md)|2015-04-05|
-|[How I Got Started](chapters/how_i_got_started.md)|2015-04-05|
-|[Improving Xcode](chapters/improving_xcode.md)|2015-04-05|
-|[Integration Testing](chapters/integration_testing.md)|2015-04-05|
-|[Introducing Tests Into An Existing Application](chapters/introducing_tests_into_an_existing_application.md)|2015-04-05|
-|[Ipad And Iphone](chapters/ipad_and_iphone.md)|2015-04-05|
-|[Making Libraries To Get Annoying Tests Out Of Your App](chapters/making_libraries_to_get_annoying_tests_out_of_your_app.md)|2015-04-05|
-|[Mocking And Stubbing  Ocmock And Ocmockito ](chapters/mocking_and_stubbing__ocmock_and_ocmockito_.md)|2015-04-05|
-|[Moya And Eidolon](chapters/moya_and_eidolon.md)|2015-04-05|
-|[Nested Before And After Usage](chapters/nested_before_and_after_usage.md)|2015-04-05|
-|[Network Stubbing  Ohttp And Vcrurlconnection](chapters/network_stubbing__ohttp_and_vcrurlconnection.md)|2015-04-05|
-|[Networking In View Controllers  Network Models](chapters/networking_in_view_controllers__network_models.md)|2015-04-05|
-|[Oss Testing In iOS](chapters/oss_testing_in_ios.md)|2015-04-05|
-|[Recommended Websites](chapters/recommended_websites.md)|2015-04-05|
-|[Restkit Plus Afnetworking](chapters/restkit_plus_afnetworking.md)|2015-04-05|
-|[Scroll Views](chapters/scroll_views.md)|2015-04-05|
-|[Starting A New Application And Using Tests](chapters/starting_a_new_application_and_using_tests.md)|2015-04-05|
-|[Stubbed Core Data Contexts](chapters/stubbed_core_data_contexts.md)|2015-04-05|
-|[Stubs And Mocks](chapters/stubs_and_mocks.md)|2015-04-05|
-|[Swift](chapters/swift.md)|2015-04-05|
-|[Techniques For Getting Around Async Testing](chapters/techniques_for_getting_around_async_testing.md)|2015-04-05|
-|[Techniques For Keeping Testing Code Sane](chapters/techniques_for_keeping_testing_code_sane.md)|2015-04-05|
-|[Techniques For Testing Different Aspects Of The App](chapters/techniques_for_testing_different_aspects_of_the_app.md)|2015-04-05|
-|[Test Driven Development](chapters/test_driven_development.md)|2015-04-05|
-|[Testing Migrations](chapters/testing_migrations.md)|2015-04-05|
-|[Testing Terminology](chapters/testing_terminology.md)|2015-04-05|
-|[Three Types Of Unit Tests](chapters/Three_Types_of_Unit_Tests.md)|2015-04-05|
-|[Tooling For Different Types Of Testing](chapters/Tooling_for_different_types_of_testing.md)|2015-04-05|
-|[Tooling For The Types Of Testing](chapters/tooling_for_the_types_of_testing.md)|2015-04-05|
-|[Twitter Follows](chapters/twitter_follows.md)|2015-04-05|
-|[Types Of Testing](chapters/types_of_testing.md)|2015-04-05|
-|[Unit Testing](chapters/unit_testing.md)|2015-04-05|
-|[Unit Testing  Specta And Kiwi ](chapters/unit_testing__specta_and_kiwi_.md)|2015-04-05|
-|[Useful Terminology](chapters/useful_terminology.md)|2015-04-05|
-|[User Interactions](chapters/user_interactions.md)|2015-04-05|
-|[Using Xcode Pragmatically](chapters/using_xcode_pragmatically.md)|2015-04-05|
-|[Views  Snapshots](chapters/views__snapshots.md)|2015-04-05|
-|[What And Why Of The Book](chapters/what_and_why_of_the_book.md)|2015-04-05|
-|[What Is Xctest How Does It Work](chapters/what_is_xctest_how_does_it_work.md)|2015-04-05|
-|[Will And Xctest 6](chapters/will_and_xctest_6.md)|2015-04-05|
+|[Animations](chapters/animations.md)|2015-07-25|Words: 135|
+|[Assert On Accessing Main Context](chapters/assert_on_accessing_main_context.md)|2015-04-05|Words: 0|
+|[Behavior Testing](chapters/behavior_testing.md)|2015-04-05|Words: 0|
+|[Books](chapters/books.md)|2015-04-05|Words: 0|
+|[Core Data](chapters/core_data.md)|2015-04-05|Words: 0|
+|[Core Data Migrations](chapters/core_data_migrations.md)|2015-07-30|Words: 535|
+|[Creation Of App-Centric It Blocks](chapters/creation_of_app-centric_it_blocks.md)|2015-04-05|Words: 0|
+|[Dependency Injection](chapters/dependency_injection.md)|2015-04-05|Words: 326|
+|[Developer Operations Aka Automation](chapters/developer_operations_aka_automation.md)|2015-04-05|Words: 1275|
+|[Di](chapters/di.md)|2015-04-05|Words: 0|
+|[Dispatch Asyncs  Ar Dispatch Etc](chapters/dispatch_asyncs__ar_dispatch_etc.md)|2015-07-25|Words: 370|
+|[Expanding On Specta And Expecta](chapters/expanding_on_specta_and_expecta.md)|2015-04-05|Words: 0|
+|[Fakes  Plus Protocols ](chapters/fakes__plus_protocols_.md)|2015-04-05|Words: 0|
+|[Fixtures And Factories](chapters/fixtures_and_factories.md)|2015-04-05|Words: 0|
+|[Getting Setup](chapters/getting_setup.md)|2015-04-05|Words: 324|
+|[How Can I Be Pragmatic With My Testing](chapters/how_can_i_be_pragmatic_with_my_testing.md)|2015-04-05|Words: 0|
+|[How I Got Started](chapters/how_i_got_started.md)|2015-04-05|Words: 196|
+|[Improving Xcode](chapters/improving_xcode.md)|2015-04-05|Words: 0|
+|[Integration Testing](chapters/integration_testing.md)|2015-04-05|Words: 0|
+|[Introducing Tests Into An Existing Application](chapters/introducing_tests_into_an_existing_application.md)|2015-04-05|Words: 339|
+|[Ipad And Iphone](chapters/ipad_and_iphone.md)|2015-04-05|Words: 0|
+|[Making Libraries To Get Annoying Tests Out Of Your App](chapters/making_libraries_to_get_annoying_tests_out_of_your_app.md)|2015-04-05|Words: 0|
+|[Mocking And Stubbing  Ocmock And Ocmockito ](chapters/mocking_and_stubbing__ocmock_and_ocmockito_.md)|2015-04-05|Words: 0|
+|[Moya And Eidolon](chapters/moya_and_eidolon.md)|2015-04-05|Words: 0|
+|[Nested Before And After Usage](chapters/nested_before_and_after_usage.md)|2015-04-05|Words: 0|
+|[Network Stubbing  Ohttp And Vcrurlconnection](chapters/network_stubbing__ohttp_and_vcrurlconnection.md)|2015-04-05|Words: 0|
+|[Networking In View Controllers  Network Models](chapters/networking_in_view_controllers__network_models.md)|2015-04-05|Words: 0|
+|[Oss Testing In iOS](chapters/oss_testing_in_ios.md)|2015-04-05|Words: 0|
+|[Recommended Websites](chapters/recommended_websites.md)|2015-04-05|Words: 51|
+|[Restkit Plus Afnetworking](chapters/restkit_plus_afnetworking.md)|2015-04-05|Words: 0|
+|[Scroll Views](chapters/scroll_views.md)|2015-04-05|Words: 0|
+|[Starting A New Application And Using Tests](chapters/starting_a_new_application_and_using_tests.md)|2015-04-05|Words: 0|
+|[Stubbed Core Data Contexts](chapters/stubbed_core_data_contexts.md)|2015-04-05|Words: 400|
+|[Stubs And Mocks](chapters/stubs_and_mocks.md)|2015-04-05|Words: 0|
+|[Swift](chapters/swift.md)|2015-04-05|Words: 0|
+|[Techniques For Getting Around Async Testing](chapters/techniques_for_getting_around_async_testing.md)|2015-04-05|Words: 0|
+|[Techniques For Keeping Testing Code Sane](chapters/techniques_for_keeping_testing_code_sane.md)|2015-04-05|Words: 0|
+|[Techniques For Testing Different Aspects Of The App](chapters/techniques_for_testing_different_aspects_of_the_app.md)|2015-04-05|Words: 0|
+|[Test Driven Development](chapters/test_driven_development.md)|2015-04-05|Words: 0|
+|[Testing Migrations](chapters/testing_migrations.md)|2015-04-05|Words: 0|
+|[Testing Terminology](chapters/testing_terminology.md)|2015-04-05|Words: 0|
+|[Three Types Of Unit Tests](chapters/Three_Types_of_Unit_Tests.md)|2015-04-05|Words: 296|
+|[Tooling For Different Types Of Testing](chapters/Tooling_for_different_types_of_testing.md)|2015-04-05|Words: 367|
+|[Tooling For The Types Of Testing](chapters/tooling_for_the_types_of_testing.md)|2015-04-05|Words: 0|
+|[Twitter Follows](chapters/twitter_follows.md)|2015-04-05|Words: 0|
+|[Types Of Testing](chapters/types_of_testing.md)|2015-04-05|Words: 219|
+|[Unit Testing](chapters/unit_testing.md)|2015-04-05|Words: 0|
+|[Unit Testing  Specta And Kiwi ](chapters/unit_testing__specta_and_kiwi_.md)|2015-04-05|Words: 0|
+|[Useful Terminology](chapters/useful_terminology.md)|2015-04-05|Words: 503|
+|[User Interactions](chapters/user_interactions.md)|2015-04-05|Words: 0|
+|[Using Xcode Pragmatically](chapters/using_xcode_pragmatically.md)|2015-04-05|Words: 0|
+|[Views  Snapshots](chapters/views__snapshots.md)|2015-04-05|Words: 0|
+|[What And Why Of The Book](chapters/what_and_why_of_the_book.md)|2015-04-05|Words: 387|
+|[What Is Xctest How Does It Work](chapters/what_is_xctest_how_does_it_work.md)|2015-04-05|Words: 336|
+|[Will And Xctest 6](chapters/will_and_xctest_6.md)|2015-04-05|Words: 0|
 
 ##### Generating the ebook
 
