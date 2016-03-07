@@ -9,7 +9,6 @@
 * [Chapters/Integration Testing](chapters/integration_testing.md)
 * [Chapters/Useful Terminology](chapters/useful_terminology.md)
 * [Chapters/Testing Terminology](chapters/testing_terminology.md)
-* [Chapters/Di](chapters/di.md)
 * [Chapters/Dependency Injection](chapters/dependency_injection.md)
 * [Chapters/Stubs And Mocks](chapters/stubs_and_mocks.md)
 * [Chapters/Fakes  Plus Protocols ](chapters/fakes__plus_protocols_.md)

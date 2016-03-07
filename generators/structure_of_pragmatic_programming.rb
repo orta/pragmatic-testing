@@ -11,7 +11,6 @@ MARKDOWN_FILES = %w[
   chapters/useful_terminology.md
   chapters/testing_terminology.md
 
-  chapters/di.md
   chapters/dependency_injection.md
   chapters/stubs_and_mocks.md
   chapters/fakes__plus_protocols_.md

@@ -93,7 +93,6 @@ Or check [it on GitBook](https://www.gitbook.com/book/orta/pragmatic-ios-testing
 |[Integration Testing](chapters/integration_testing.md)|2015-04-05|Words: 0|
 |[Useful Terminology](chapters/useful_terminology.md)|2015-04-05|Words: 503|
 |[Testing Terminology](chapters/testing_terminology.md)|2015-04-05|Words: 0|
-|[Di](chapters/di.md)|2015-04-05|Words: 0|
 |[Dependency Injection](chapters/dependency_injection.md)|2015-04-05|Words: 326|
 |[Stubs And Mocks](chapters/stubs_and_mocks.md)|2015-04-05|Words: 0|
 |[Fakes  Plus Protocols ](chapters/fakes__plus_protocols_.md)|2015-04-05|Words: 0|
@@ -146,7 +145,6 @@ Or check [it on GitBook](https://www.gitbook.com/book/orta/pragmatic-ios-testing
 |[Integration Testing](chapters/integration_testing.md)|2015-04-05|Words: 0|
 |[Useful Terminology](chapters/useful_terminology.md)|2015-04-05|Words: 503|
 |[Testing Terminology](chapters/testing_terminology.md)|2015-04-05|Words: 0|
-|[Di](chapters/di.md)|2015-04-05|Words: 0|
 |[Dependency Injection](chapters/dependency_injection.md)|2015-04-05|Words: 326|
 |[Stubs And Mocks](chapters/stubs_and_mocks.md)|2015-04-05|Words: 0|
 |[Fakes  Plus Protocols ](chapters/fakes__plus_protocols_.md)|2015-04-05|Words: 0|
