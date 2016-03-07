@@ -1,3 +1,5 @@
+require_relative 'structure_of_pragmatic_programming'
+
 class TableOfContents
 
   def create
@@ -27,15 +29,17 @@ def add_markdown_files_to template
       next if item[-2..-1] != "md"
       next if item == "README.md"
 
-      mdfiles << item
+      mdfiles << "./chapters/" + item
     end
 
-    mdfiles.each do |mdfile|
-      title = mdfile[0..-4].gsub("_", " ").gsub(/\w+/) { |word| word.capitalize }.gsub("Ios", "iOS")
-      last_updated = `git log -1  --date=short --pretty=format:"%ad" ./chapters/#{mdfile}`
-      words = `wc -w ./chapters/#{mdfile}`.split(" ").first
+    left_overs = MARKDOWN_FILES - mdfiles
 
-      template += "|[#{title}](chapters/#{mdfile})|#{last_updated}|Words: #{words}|\n"
+    (MARKDOWN_FILES + left_overs).each do |mdfile|
+      title = mdfile[0..-4].gsub("_", " ").gsub(/\w+/) { |word| word.capitalize }.gsub("Ios", "iOS").gsub("Chapters/", "")
+      last_updated = `git log -1  --date=short --pretty=format:"%ad" #{mdfile}`
+      words = `wc -w #{mdfile}`.split(" ").first
+
+      template += "|[#{title}](#{mdfile})|#{last_updated}|Words: #{words}|\n"
     end
 
     template
