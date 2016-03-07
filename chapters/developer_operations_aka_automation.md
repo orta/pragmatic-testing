@@ -63,7 +63,7 @@ I really like the system of configuring everything via a single file that is hel
 
 ##### Bitrise.io
 
-Butrise is a newcomer to the CI field and is focused exclusively on iOS. This is a great thing. They have been known to have both stable and betas builds of Xcode on their virtual machines. This makes it possible to keep your builds green while you add support for the greatest new things. This has, and continues to be be a major issue with Travis CI in the past.
+Bitrise is a newcomer to the CI field and is focused exclusively on iOS. This is a great thing. They have been known to have both stable and betas builds of Xcode on their virtual machines. This makes it possible to keep your builds green while you add support for the greatest new things. This has, and continues to be be a major issue with Travis CI in the past.
 
 Bitrise differs from Travis CI in that it's testing system is ran as a series of steps that you can run from their website. Because of this it has a much lower barrier to entry. When given some of my simpler iOS Apps their automatic setup did everything required with no configuration.
 
