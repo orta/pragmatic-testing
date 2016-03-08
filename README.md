@@ -84,9 +84,9 @@ Or check [it on GitBook](https://www.gitbook.com/book/orta/pragmatic-ios-testing
 
 | Topics | Last Updated | Length | 
 | -------|----|-----|
-|[What And Why Of The Book](chapters/what_and_why_of_the_book.md)|2015-04-05|Words: 387|
+|[What And Why Of The Book](chapters/what_and_why_of_the_book.md)|2016-03-07|Words: 387|
 |[What Is Xctest How Does It Work](chapters/what_is_xctest_how_does_it_work.md)|2015-04-05|Words: 336|
-|[How Can I Be Pragmatic With My Testing](chapters/how_can_i_be_pragmatic_with_my_testing.md)|2015-04-05|Words: 0|
+|[How Can I Be Pragmatic With My Testing](chapters/how_can_i_be_pragmatic_with_my_testing.md)|2016-03-07|Words: 370|
 |[Types Of Testing](chapters/types_of_testing.md)|2015-04-05|Words: 219|
 |[Unit Testing](chapters/unit_testing.md)|2015-04-05|Words: 0|
 |[Behavior Testing](chapters/behavior_testing.md)|2015-04-05|Words: 0|
@@ -105,7 +105,7 @@ Or check [it on GitBook](https://www.gitbook.com/book/orta/pragmatic-ios-testing
 |[How I Got Started](chapters/how_i_got_started.md)|2015-04-05|Words: 196|
 |[Starting A New Application And Using Tests](chapters/starting_a_new_application_and_using_tests.md)|2015-04-05|Words: 0|
 |[Introducing Tests Into An Existing Application](chapters/introducing_tests_into_an_existing_application.md)|2015-04-05|Words: 339|
-|[Developer Operations Aka Automation](chapters/developer_operations_aka_automation.md)|2015-04-05|Words: 1275|
+|[Developer Operations Aka Automation](chapters/developer_operations_aka_automation.md)|2016-03-06|Words: 1275|
 |[Techniques For Keeping Testing Code Sane](chapters/techniques_for_keeping_testing_code_sane.md)|2015-04-05|Words: 0|
 |[Nested Before And After Usage](chapters/nested_before_and_after_usage.md)|2015-04-05|Words: 0|
 |[Creation Of App-Centric It Blocks](chapters/creation_of_app-centric_it_blocks.md)|2015-04-05|Words: 0|
@@ -136,9 +136,9 @@ Or check [it on GitBook](https://www.gitbook.com/book/orta/pragmatic-ios-testing
 |[Oss Testing In iOS](chapters/oss_testing_in_ios.md)|2015-04-05|Words: 0|
 |[Restkit Plus Afnetworking](chapters/restkit_plus_afnetworking.md)|2015-04-05|Words: 0|
 |[Moya And Eidolon](chapters/moya_and_eidolon.md)|2015-04-05|Words: 0|
-|[What And Why Of The Book](chapters/what_and_why_of_the_book.md)|2015-04-05|Words: 387|
+|[What And Why Of The Book](chapters/what_and_why_of_the_book.md)|2016-03-07|Words: 387|
 |[What Is Xctest How Does It Work](chapters/what_is_xctest_how_does_it_work.md)|2015-04-05|Words: 336|
-|[How Can I Be Pragmatic With My Testing](chapters/how_can_i_be_pragmatic_with_my_testing.md)|2015-04-05|Words: 0|
+|[How Can I Be Pragmatic With My Testing](chapters/how_can_i_be_pragmatic_with_my_testing.md)|2016-03-07|Words: 370|
 |[Types Of Testing](chapters/types_of_testing.md)|2015-04-05|Words: 219|
 |[Unit Testing](chapters/unit_testing.md)|2015-04-05|Words: 0|
 |[Behavior Testing](chapters/behavior_testing.md)|2015-04-05|Words: 0|
@@ -157,7 +157,7 @@ Or check [it on GitBook](https://www.gitbook.com/book/orta/pragmatic-ios-testing
 |[How I Got Started](chapters/how_i_got_started.md)|2015-04-05|Words: 196|
 |[Starting A New Application And Using Tests](chapters/starting_a_new_application_and_using_tests.md)|2015-04-05|Words: 0|
 |[Introducing Tests Into An Existing Application](chapters/introducing_tests_into_an_existing_application.md)|2015-04-05|Words: 339|
-|[Developer Operations Aka Automation](chapters/developer_operations_aka_automation.md)|2015-04-05|Words: 1275|
+|[Developer Operations Aka Automation](chapters/developer_operations_aka_automation.md)|2016-03-06|Words: 1275|
 |[Techniques For Keeping Testing Code Sane](chapters/techniques_for_keeping_testing_code_sane.md)|2015-04-05|Words: 0|
 |[Nested Before And After Usage](chapters/nested_before_and_after_usage.md)|2015-04-05|Words: 0|
 |[Creation Of App-Centric It Blocks](chapters/creation_of_app-centric_it_blocks.md)|2015-04-05|Words: 0|
