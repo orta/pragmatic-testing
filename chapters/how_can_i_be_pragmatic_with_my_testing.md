@@ -8,6 +8,6 @@ Sometimes you will need to say "I don't need to write tests for this." There _wi
 
 An easy example is model objects, when you have objects that have some simple functions that will probably never change, it's not worth testing the functions. If you have functions that do some complicated logic, you should make sure that's covered by multiple tests showing different inputs and outputs.
 
-Internally we talk about coverage by using a painting analogy. There are some tools that allow you to test a lot of logic at once, for example a snapshot test for a view controller. In doing a Snapshot test, you're testing: object initialization, `viewDidLoad` behavior, `viewDid/WillAppear` behvarior, subview layouting and many more systems. On the other hand you have unit tests, which are a much finer brush for covering the edge cases which snapshots won't or can't cover.
+Internally we talk about coverage by using a painting analogy. There are some tools that allow you to test a lot of logic at once, for example a snapshot test for a view controller. In doing a Snapshot test, you're testing: object initialization, `viewDidLoad` behavior, `viewDid/WillAppear` behavior, subview layouting and many more systems. On the other hand you have unit tests, which are a much finer brush for covering the edge cases which snapshots won't or can't cover.
 
 By using multiple testing techniques, you can cover the shapes of your application, but still offers the chance to have fewer places to change as you evolve your application.
