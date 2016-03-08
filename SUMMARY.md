@@ -1,8 +1,8 @@
 ### Summary
 
 * [Chapters/What And Why Of The Book](chapters/what_and_why_of_the_book.md)
-* [Chapters/What Is Xctest How Does It Work](chapters/what_is_xctest_how_does_it_work.md)
 * [Chapters/How Can I Be Pragmatic With My Testing](chapters/how_can_i_be_pragmatic_with_my_testing.md)
+* [Chapters/What Is Xctest How Does It Work](chapters/what_is_xctest_how_does_it_work.md)
 * [Chapters/Types Of Testing](chapters/types_of_testing.md)
 * [Chapters/Unit Testing](chapters/unit_testing.md)
 * [Chapters/Behavior Testing](chapters/behavior_testing.md)

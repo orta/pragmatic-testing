@@ -1,9 +1,9 @@
 MARKDOWN_FILES = %w[
   chapters/what_and_why_of_the_book.md
-
-  chapters/what_is_xctest_how_does_it_work.md
+  
   chapters/how_can_i_be_pragmatic_with_my_testing.md
-
+  
+  chapters/what_is_xctest_how_does_it_work.md
   chapters/types_of_testing.md
   chapters/unit_testing.md
   chapters/behavior_testing.md
