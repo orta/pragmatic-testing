@@ -84,9 +84,9 @@ Or check [it on GitBook](https://www.gitbook.com/book/orta/pragmatic-ios-testing
 
 | Topics | Last Updated | Length | 
 | -------|----|-----|
-|[What And Why Of The Book](chapters/what_and_why_of_the_book.md)|2016-03-07|Words: 387|
-|[What Is Xctest How Does It Work](chapters/what_is_xctest_how_does_it_work.md)|2015-04-05|Words: 336|
+|[What And Why Of The Book](chapters/what_and_why_of_the_book.md)|2016-03-07|Words: 517|
 |[How Can I Be Pragmatic With My Testing](chapters/how_can_i_be_pragmatic_with_my_testing.md)|2016-03-07|Words: 370|
+|[What Is Xctest How Does It Work](chapters/what_is_xctest_how_does_it_work.md)|2015-04-05|Words: 336|
 |[Types Of Testing](chapters/types_of_testing.md)|2015-04-05|Words: 219|
 |[Unit Testing](chapters/unit_testing.md)|2015-04-05|Words: 0|
 |[Behavior Testing](chapters/behavior_testing.md)|2015-04-05|Words: 0|
@@ -136,9 +136,9 @@ Or check [it on GitBook](https://www.gitbook.com/book/orta/pragmatic-ios-testing
 |[Oss Testing In iOS](chapters/oss_testing_in_ios.md)|2015-04-05|Words: 0|
 |[Restkit Plus Afnetworking](chapters/restkit_plus_afnetworking.md)|2015-04-05|Words: 0|
 |[Moya And Eidolon](chapters/moya_and_eidolon.md)|2015-04-05|Words: 0|
-|[What And Why Of The Book](chapters/what_and_why_of_the_book.md)|2016-03-07|Words: 387|
-|[What Is Xctest How Does It Work](chapters/what_is_xctest_how_does_it_work.md)|2015-04-05|Words: 336|
+|[What And Why Of The Book](chapters/what_and_why_of_the_book.md)|2016-03-07|Words: 517|
 |[How Can I Be Pragmatic With My Testing](chapters/how_can_i_be_pragmatic_with_my_testing.md)|2016-03-07|Words: 370|
+|[What Is Xctest How Does It Work](chapters/what_is_xctest_how_does_it_work.md)|2015-04-05|Words: 336|
 |[Types Of Testing](chapters/types_of_testing.md)|2015-04-05|Words: 219|
 |[Unit Testing](chapters/unit_testing.md)|2015-04-05|Words: 0|
 |[Behavior Testing](chapters/behavior_testing.md)|2015-04-05|Words: 0|
