@@ -1,0 +1,7 @@
+[text]
+spellChecking = 1
+spellLanguage = en_GB
+
+["*.md"]
+spellChecking = 1
+spellLanguage = en_GB
