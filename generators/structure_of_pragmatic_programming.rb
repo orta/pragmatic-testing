@@ -1,8 +1,8 @@
 MARKDOWN_FILES = %w[
   chapters/what_and_why_of_the_book.md
-  
+
   chapters/how_can_i_be_pragmatic_with_my_testing.md
-  
+
   chapters/what_is_xctest_how_does_it_work.md
   chapters/types_of_testing.md
   chapters/unit_testing.md
@@ -16,7 +16,7 @@ MARKDOWN_FILES = %w[
   chapters/fakes__plus_protocols_.md
 
   chapters/tooling_for_the_types_of_testing.md
-  chapters/unit_testing__specta_and_kiwi_.md
+  chapters/unit_testing__specta_and_quick_.md
   chapters/Three_Types_of_Unit_Tests.md
   chapters/mocking_and_stubbing__ocmock_and_ocmockito_.md
   chapters/network_stubbing__ohttp_and_vcrurlconnection.md
@@ -46,6 +46,7 @@ MARKDOWN_FILES = %w[
   chapters/scroll_views.md
   chapters/user_interactions.md
   chapters/ipad_and_iphone.md
+  chapters/testing_delegates.md
 
   chapters/core_data.md
   chapters/assert_on_accessing_main_context.md

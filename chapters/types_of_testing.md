@@ -12,4 +12,4 @@ Behavioral testing is a subset of Unit Testing, it is essentially a school of th
 
 ### Integration Testing
 
-Integration testing is a way of testing that your application code integrates well with external systems. The most common example of integration testing in iOS apps are user interface runners that emulate users tapping though you application. Though I am of the opinion that database and API testing fall into this category.
+Integration testing is a way of testing that your application code integrates well with external systems. The most common example of integration testing in iOS apps are user interface runners that emulate users tapping though you application. I also consider that database and API testing fall into this category.
