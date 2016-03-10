@@ -86,10 +86,10 @@ Or check [it on GitBook](https://www.gitbook.com/book/orta/pragmatic-ios-testing
 | -------|----|-----|
 |[What And Why Of The Book](chapters/what_and_why_of_the_book.md)|2016-03-07|Words: 517|
 |[How Can I Be Pragmatic With My Testing](chapters/how_can_i_be_pragmatic_with_my_testing.md)|2016-03-08|Words: 370|
-|[What Is Xctest How Does It Work](chapters/what_is_xctest_how_does_it_work.md)|2015-04-05|Words: 558|
-|[Types Of Testing](chapters/types_of_testing.md)|2015-04-05|Words: 216|
-|[Unit Testing](chapters/unit_testing.md)|2015-04-05|Words: 336|
-|[Behavior Testing](chapters/behavior_testing.md)|2015-04-05|Words: 0|
+|[What Is Xctest How Does It Work](chapters/what_is_xctest_how_does_it_work.md)|2016-03-08|Words: 558|
+|[Types Of Testing](chapters/types_of_testing.md)|2016-03-08|Words: 216|
+|[Unit Testing](chapters/unit_testing.md)|2016-03-08|Words: 336|
+|[Behavior Testing](chapters/behavior_testing.md)|2016-03-09|Words: 498|
 |[Integration Testing](chapters/integration_testing.md)|2015-04-05|Words: 0|
 |[Useful Terminology](chapters/useful_terminology.md)|2015-04-05|Words: 503|
 |[Testing Terminology](chapters/testing_terminology.md)|2015-04-05|Words: 0|
@@ -97,8 +97,8 @@ Or check [it on GitBook](https://www.gitbook.com/book/orta/pragmatic-ios-testing
 |[Stubs And Mocks](chapters/stubs_and_mocks.md)|2015-04-05|Words: 0|
 |[Fakes  Plus Protocols ](chapters/fakes__plus_protocols_.md)|2015-04-05|Words: 0|
 |[Tooling For The Types Of Testing](chapters/tooling_for_the_types_of_testing.md)|2015-04-05|Words: 0|
-|[Unit Testing  Specta And Quick ](chapters/unit_testing__specta_and_quick_.md)||Words: 0|
-|[Three Types Of Unit Tests](chapters/Three_Types_of_Unit_Tests.md)|2015-04-05|Words: 314|
+|[Unit Testing  Specta And Quick ](chapters/unit_testing__specta_and_quick_.md)|2016-03-08|Words: 0|
+|[Three Types Of Unit Tests](chapters/Three_Types_of_Unit_Tests.md)|2016-03-08|Words: 314|
 |[Mocking And Stubbing  Ocmock And Ocmockito ](chapters/mocking_and_stubbing__ocmock_and_ocmockito_.md)|2015-04-05|Words: 0|
 |[Network Stubbing  Ohttp And Vcrurlconnection](chapters/network_stubbing__ohttp_and_vcrurlconnection.md)|2015-04-05|Words: 0|
 |[Getting Setup](chapters/getting_setup.md)|2015-04-05|Words: 324|
@@ -139,10 +139,10 @@ Or check [it on GitBook](https://www.gitbook.com/book/orta/pragmatic-ios-testing
 |[Moya And Eidolon](chapters/moya_and_eidolon.md)|2015-04-05|Words: 0|
 |[What And Why Of The Book](chapters/what_and_why_of_the_book.md)|2016-03-07|Words: 517|
 |[How Can I Be Pragmatic With My Testing](chapters/how_can_i_be_pragmatic_with_my_testing.md)|2016-03-08|Words: 370|
-|[What Is Xctest How Does It Work](chapters/what_is_xctest_how_does_it_work.md)|2015-04-05|Words: 558|
-|[Types Of Testing](chapters/types_of_testing.md)|2015-04-05|Words: 216|
-|[Unit Testing](chapters/unit_testing.md)|2015-04-05|Words: 336|
-|[Behavior Testing](chapters/behavior_testing.md)|2015-04-05|Words: 0|
+|[What Is Xctest How Does It Work](chapters/what_is_xctest_how_does_it_work.md)|2016-03-08|Words: 558|
+|[Types Of Testing](chapters/types_of_testing.md)|2016-03-08|Words: 216|
+|[Unit Testing](chapters/unit_testing.md)|2016-03-08|Words: 336|
+|[Behavior Testing](chapters/behavior_testing.md)|2016-03-09|Words: 498|
 |[Integration Testing](chapters/integration_testing.md)|2015-04-05|Words: 0|
 |[Useful Terminology](chapters/useful_terminology.md)|2015-04-05|Words: 503|
 |[Testing Terminology](chapters/testing_terminology.md)|2015-04-05|Words: 0|
@@ -150,8 +150,8 @@ Or check [it on GitBook](https://www.gitbook.com/book/orta/pragmatic-ios-testing
 |[Stubs And Mocks](chapters/stubs_and_mocks.md)|2015-04-05|Words: 0|
 |[Fakes  Plus Protocols ](chapters/fakes__plus_protocols_.md)|2015-04-05|Words: 0|
 |[Tooling For The Types Of Testing](chapters/tooling_for_the_types_of_testing.md)|2015-04-05|Words: 0|
-|[Unit Testing  Specta And Quick ](chapters/unit_testing__specta_and_quick_.md)||Words: 0|
-|[Three Types Of Unit Tests](chapters/Three_Types_of_Unit_Tests.md)|2015-04-05|Words: 314|
+|[Unit Testing  Specta And Quick ](chapters/unit_testing__specta_and_quick_.md)|2016-03-08|Words: 0|
+|[Three Types Of Unit Tests](chapters/Three_Types_of_Unit_Tests.md)|2016-03-08|Words: 314|
 |[Mocking And Stubbing  Ocmock And Ocmockito ](chapters/mocking_and_stubbing__ocmock_and_ocmockito_.md)|2015-04-05|Words: 0|
 |[Network Stubbing  Ohttp And Vcrurlconnection](chapters/network_stubbing__ohttp_and_vcrurlconnection.md)|2015-04-05|Words: 0|
 |[Getting Setup](chapters/getting_setup.md)|2015-04-05|Words: 324|
