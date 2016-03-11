@@ -89,8 +89,8 @@ Or check [it on GitBook](https://www.gitbook.com/book/orta/pragmatic-ios-testing
 |[What Is Xctest How Does It Work](chapters/what_is_xctest_how_does_it_work.md)|2016-03-08|Words: 558|
 |[Types Of Testing](chapters/types_of_testing.md)|2016-03-08|Words: 216|
 |[Unit Testing](chapters/unit_testing.md)|2016-03-08|Words: 336|
-|[Behavior Testing](chapters/behavior_testing.md)|2016-03-09|Words: 498|
-|[Integration Testing](chapters/integration_testing.md)|2015-04-05|Words: 0|
+|[Behavior Testing](chapters/behavior_testing.md)|2016-03-09|Words: 905|
+|[Integration Testing](chapters/integration_testing.md)|2015-04-05|Words: 4|
 |[Useful Terminology](chapters/useful_terminology.md)|2015-04-05|Words: 503|
 |[Testing Terminology](chapters/testing_terminology.md)|2015-04-05|Words: 0|
 |[Dependency Injection](chapters/dependency_injection.md)|2015-04-05|Words: 326|
@@ -142,8 +142,8 @@ Or check [it on GitBook](https://www.gitbook.com/book/orta/pragmatic-ios-testing
 |[What Is Xctest How Does It Work](chapters/what_is_xctest_how_does_it_work.md)|2016-03-08|Words: 558|
 |[Types Of Testing](chapters/types_of_testing.md)|2016-03-08|Words: 216|
 |[Unit Testing](chapters/unit_testing.md)|2016-03-08|Words: 336|
-|[Behavior Testing](chapters/behavior_testing.md)|2016-03-09|Words: 498|
-|[Integration Testing](chapters/integration_testing.md)|2015-04-05|Words: 0|
+|[Behavior Testing](chapters/behavior_testing.md)|2016-03-09|Words: 905|
+|[Integration Testing](chapters/integration_testing.md)|2015-04-05|Words: 4|
 |[Useful Terminology](chapters/useful_terminology.md)|2015-04-05|Words: 503|
 |[Testing Terminology](chapters/testing_terminology.md)|2015-04-05|Words: 0|
 |[Dependency Injection](chapters/dependency_injection.md)|2015-04-05|Words: 326|

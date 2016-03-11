@@ -110,7 +110,65 @@ So what are these words?
 * `before/after` - callbacks to code that happens before, or after each `it` or `describe` within the current `describe` context.
 * `beforeAll/afterAll` - callbacks to run logic at the start / end of a describe context.
 
+They combine like this psuedocode version of [these tests: ARArtworkViewControllerBuyButtonTests.m](https://github.com/artsy/eigen/blob/2a14463c0bb1a14e9709496261f74622cca8b1e5/Artsy_Tests/View_Controller_Tests/Artwork/ARArtworkViewControllerBuyButtonTests.m#L16-L121):
 
-### Common Patterns
+``` swift
+describe("buy button") {
+  beforeAll {
+    // sets up a mock for a singleton object
+  }
 
-So what does this pattern give us?
+  afterAll {
+    // stops mocking
+  }
+
+  before {
+    // ensure we are in a logged out state
+  }
+
+  after {
+    // clear all user credentials
+  }
+
+  it("posts order if artwork has no edition sets") {
+    // sets up a view controller
+    // taps a button
+    // verifies what routes have been called
+  }
+
+  it("posts order if artwork has 1 edition set") {
+    // [...]
+  }
+
+  it("displays inquiry form if artwork has multiple sets") {
+    // [...]
+  }
+
+  it("displays inquiry form if request fails") {
+    // [...]
+  }
+}
+```
+
+By using BDD, we can effectively tell a story about what expectations there are within a codebase, specifically around this buy button. It tells you:
+
+* Bid button it posts order if artwork has no edition sets
+* Bid button it posts order if artwork has 1 edition set
+* Bid button it displays inquiry form if artwork has multiple sets
+* Bid button it displays inquiry form if request fails
+
+Yeah, the English gets a bit janky, but you can easily read these as though they were english sentences. That's pretty cool. These describe blocks can be nested, this makes contextualising different aspects of your testing suite easily. So you might end up with this in the future:
+
+* Bid button when logged in it posts order if artwork has no edition sets
+* Bid button when logged in it posts order if artwork has 1 edition set
+* Bid button when logged in it displays inquiry form if artwork has multiple sets
+* Bid button when logged in it displays inquiry form if request fails
+* Bid button when logged out it asks for a email if we don't have one
+* Bid button when logged out it posts order if no edition sets and we have email
+
+Where you can split out the `it` blocks into different `describes` called `logged in` and `logged out`.
+
+So what does this pattern give us? Well, first up, tests are readable, and are obvious in their dependents. The structure of how you make your tests becomes a matter of nesting `context`s, and it's much harder to just name your tests: `test1`, `test2`, `test3` because you can easily say them out loud.
+
+I've never felt comfortable writing XCTest, and so from this point on, expect to not see anymore examples in that format.
+
