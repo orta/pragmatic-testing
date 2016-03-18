@@ -86,13 +86,13 @@ Or check [it on GitBook](https://www.gitbook.com/book/orta/pragmatic-ios-testing
 | -------|----|-----|
 |[What And Why Of The Book](chapters/what_and_why_of_the_book.md)|2016-03-07|Words: 517|
 |[How Can I Be Pragmatic With My Testing](chapters/how_can_i_be_pragmatic_with_my_testing.md)|2016-03-08|Words: 370|
+|[Useful Terminology](chapters/useful_terminology.md)|2015-04-05|Words: 105|
 |[What Is Xctest How Does It Work](chapters/what_is_xctest_how_does_it_work.md)|2016-03-08|Words: 558|
 |[Types Of Testing](chapters/types_of_testing.md)|2016-03-08|Words: 216|
 |[Unit Testing](chapters/unit_testing.md)|2016-03-08|Words: 336|
-|[Behavior Testing](chapters/behavior_testing.md)|2016-03-09|Words: 905|
-|[Integration Testing](chapters/integration_testing.md)|2015-04-05|Words: 4|
-|[Useful Terminology](chapters/useful_terminology.md)|2015-04-05|Words: 503|
-|[Testing Terminology](chapters/testing_terminology.md)|2015-04-05|Words: 0|
+|[Behavior Testing](chapters/behavior_testing.md)|2016-03-10|Words: 905|
+|[Integration Testing](chapters/integration_testing.md)|2016-03-10|Words: 405|
+|[Testing Terminology](chapters/testing_terminology.md)|2015-04-05|Words: 503|
 |[Dependency Injection](chapters/dependency_injection.md)|2015-04-05|Words: 326|
 |[Stubs And Mocks](chapters/stubs_and_mocks.md)|2015-04-05|Words: 0|
 |[Fakes  Plus Protocols ](chapters/fakes__plus_protocols_.md)|2015-04-05|Words: 0|
@@ -139,13 +139,13 @@ Or check [it on GitBook](https://www.gitbook.com/book/orta/pragmatic-ios-testing
 |[Moya And Eidolon](chapters/moya_and_eidolon.md)|2015-04-05|Words: 0|
 |[What And Why Of The Book](chapters/what_and_why_of_the_book.md)|2016-03-07|Words: 517|
 |[How Can I Be Pragmatic With My Testing](chapters/how_can_i_be_pragmatic_with_my_testing.md)|2016-03-08|Words: 370|
+|[Useful Terminology](chapters/useful_terminology.md)|2015-04-05|Words: 105|
 |[What Is Xctest How Does It Work](chapters/what_is_xctest_how_does_it_work.md)|2016-03-08|Words: 558|
 |[Types Of Testing](chapters/types_of_testing.md)|2016-03-08|Words: 216|
 |[Unit Testing](chapters/unit_testing.md)|2016-03-08|Words: 336|
-|[Behavior Testing](chapters/behavior_testing.md)|2016-03-09|Words: 905|
-|[Integration Testing](chapters/integration_testing.md)|2015-04-05|Words: 4|
-|[Useful Terminology](chapters/useful_terminology.md)|2015-04-05|Words: 503|
-|[Testing Terminology](chapters/testing_terminology.md)|2015-04-05|Words: 0|
+|[Behavior Testing](chapters/behavior_testing.md)|2016-03-10|Words: 905|
+|[Integration Testing](chapters/integration_testing.md)|2016-03-10|Words: 405|
+|[Testing Terminology](chapters/testing_terminology.md)|2015-04-05|Words: 503|
 |[Dependency Injection](chapters/dependency_injection.md)|2015-04-05|Words: 326|
 |[Stubs And Mocks](chapters/stubs_and_mocks.md)|2015-04-05|Words: 0|
 |[Fakes  Plus Protocols ](chapters/fakes__plus_protocols_.md)|2015-04-05|Words: 0|
