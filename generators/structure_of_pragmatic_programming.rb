@@ -3,12 +3,12 @@ MARKDOWN_FILES = %w[
 
   chapters/how_can_i_be_pragmatic_with_my_testing.md
 
+  chapters/useful_terminology.md
   chapters/what_is_xctest_how_does_it_work.md
   chapters/types_of_testing.md
   chapters/unit_testing.md
   chapters/behavior_testing.md
   chapters/integration_testing.md
-  chapters/useful_terminology.md
   chapters/testing_terminology.md
 
   chapters/dependency_injection.md
