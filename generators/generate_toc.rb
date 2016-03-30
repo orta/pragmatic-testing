@@ -28,7 +28,14 @@ def add_markdown_files_to template
     left_overs = MARKDOWN_FILES - mdfiles
 
     (MARKDOWN_FILES + left_overs).each do |mdfile|
-      title = mdfile[0..-4].gsub("_", " ").gsub(/\w+/) { |word| word.capitalize }.gsub("Ios", "iOS").gsub("Chapters/", "")
+      title = mdfile[0..-4].gsub("_", " ")
+                           .gsub(/\w+/) { |word| word.capitalize }
+                           .gsub("Ios", "iOS")
+                           .gsub("Chapters/", "")
+                           .gsub("En-Uk/", "")
+                           .gsub("Oss", "OSS")
+                           .gsub("Xctest", "XCTest")
+
       last_updated = `git log -1  --date=short --pretty=format:"%ad" #{mdfile}`
       words = `wc -w #{mdfile}`.split(" ").first
 

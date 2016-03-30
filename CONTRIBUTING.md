@@ -1,6 +1,6 @@
 #### How can I contribute to this book?
 
-There's a bunch of things I've not covered, and there's still a lot of work to do based on my current Table Of Contents.
+There's a bunch of things I've not covered, and there's still a lot of work to do based on my current Table Of Contents, which currently lets you see how each chapters is doing with respect to word count. Ideally most topics should come to around ~300 - 500 words.
 
 I'm happy to have other people send pull requests to the book, adding or amending chapters. Here's my general rules:
 
