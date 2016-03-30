@@ -59,8 +59,8 @@ Wanna contribute? [read this](CONTRIBUTING.md).
 |[Wrap Up/Twitter Follows](chapters/en-UK/wrap_up/twitter_follows.md)|2016-03-31|Words: 0|
 |[Wrap Up/Recommended Websites](chapters/en-UK/wrap_up/recommended_websites.md)|2016-03-31|Words: 51|
 
-Over 300 words: %42.2
-Over 200 words: %37.8
+Over 200 words: 42.2%
+Over 300 words: 37.8%
 
 ##### Generating the ebook
 

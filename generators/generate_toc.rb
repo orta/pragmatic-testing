@@ -16,8 +16,8 @@ class TableOfContents
     template = start_split + "\n\n| Topics | Last Updated | Length | \n| -------|----|-----|\n"
 
     template = add_markdown_files_to template
-    template += "\nOver 300 words: %" + rough_completion_estimate[:covered]
-    template += "\nOver 200 words: %" + rough_completion_estimate[:solid] + "\n"
+    template += "\nOver 200 words: " + rough_completion_estimate[:covered] + "%"
+    template += "\nOver 300 words: " + rough_completion_estimate[:solid] + "%\n"
 
     new_file = start + template + "\n" + end_split + finale
     File.open("README.md", 'w') { |f| f.write new_file }
