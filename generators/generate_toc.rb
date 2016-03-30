@@ -16,13 +16,15 @@ class TableOfContents
     template = start_split + "\n\n| Topics | Last Updated | Length | \n| -------|----|-----|\n"
 
     template = add_markdown_files_to template
+    template += "\nOver 300 words: %" + rough_completion_estimate[:covered]
+    template += "\nOver 200 words: %" + rough_completion_estimate[:solid] + "\n"
 
     new_file = start + template + "\n" + end_split + finale
     File.open("README.md", 'w') { |f| f.write new_file }
 
   end
 
-def add_markdown_files_to template
+  def add_markdown_files_to template
     mdfiles = get_markdown_files
 
     left_overs = MARKDOWN_FILES - mdfiles
@@ -41,8 +43,22 @@ def add_markdown_files_to template
 
       template += "|[#{title}](#{mdfile})|#{last_updated}|Words: #{words}|\n"
     end
-
     template
   end
 
+  def rough_completion_estimate
+    over_three_hundred = 0
+    over_two_hundred = 0
+
+    MARKDOWN_FILES.each do |mdfile|
+      words = `wc -w #{mdfile}`.split(" ").first
+      over_three_hundred += 1 if words.to_i > 300
+      over_two_hundred += 1 if words.to_i > 200
+    end
+
+    return {
+      :solid => ((over_three_hundred / MARKDOWN_FILES.count.to_f) * 100).round(1).to_s,
+      :covered => ((over_two_hundred / MARKDOWN_FILES.count.to_f) * 100).round(1).to_s
+    }
+  end
 end
