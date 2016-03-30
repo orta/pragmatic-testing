@@ -11,114 +11,53 @@ Wanna contribute? [read this](CONTRIBUTING.md).
 
 ##### Existing Pages
 
-| Topics | Last Updated | Length |
+| Topics | Last Updated | Length | 
 | -------|----|-----|
-|[What And Why Of The Book](chapters/what_and_why_of_the_book.md)|2016-03-07|Words: 517|
-|[How Can I Be Pragmatic With My Testing](chapters/how_can_i_be_pragmatic_with_my_testing.md)|2016-03-08|Words: 370|
-|[Useful Terminology](chapters/useful_terminology.md)|2015-04-05|Words: 105|
-|[What Is Xctest How Does It Work](chapters/what_is_xctest_how_does_it_work.md)|2016-03-08|Words: 558|
-|[Types Of Testing](chapters/types_of_testing.md)|2016-03-08|Words: 216|
-|[Unit Testing](chapters/unit_testing.md)|2016-03-08|Words: 336|
-|[Behavior Testing](chapters/behavior_testing.md)|2016-03-10|Words: 905|
-|[Integration Testing](chapters/integration_testing.md)|2016-03-10|Words: 405|
-|[Testing Terminology](chapters/testing_terminology.md)|2015-04-05|Words: 503|
-|[Dependency Injection](chapters/dependency_injection.md)|2015-04-05|Words: 326|
-|[Stubs And Mocks](chapters/stubs_and_mocks.md)|2015-04-05|Words: 0|
-|[Fakes  Plus Protocols ](chapters/fakes__plus_protocols_.md)|2015-04-05|Words: 0|
-|[Tooling For The Types Of Testing](chapters/tooling_for_the_types_of_testing.md)|2015-04-05|Words: 0|
-|[Unit Testing  Specta And Quick ](chapters/unit_testing__specta_and_quick_.md)|2016-03-08|Words: 0|
-|[Three Types Of Unit Tests](chapters/Three_Types_of_Unit_Tests.md)|2016-03-08|Words: 314|
-|[Mocking And Stubbing  Ocmock And Ocmockito ](chapters/mocking_and_stubbing__ocmock_and_ocmockito_.md)|2015-04-05|Words: 0|
-|[Network Stubbing  Ohttp And Vcrurlconnection](chapters/network_stubbing__ohttp_and_vcrurlconnection.md)|2015-04-05|Words: 0|
-|[Getting Setup](chapters/getting_setup.md)|2015-04-05|Words: 324|
-|[How I Got Started](chapters/how_i_got_started.md)|2015-04-05|Words: 196|
-|[Starting A New Application And Using Tests](chapters/starting_a_new_application_and_using_tests.md)|2015-04-05|Words: 0|
-|[Introducing Tests Into An Existing Application](chapters/introducing_tests_into_an_existing_application.md)|2015-04-05|Words: 339|
-|[Developer Operations Aka Automation](chapters/developer_operations_aka_automation.md)|2016-03-06|Words: 1275|
-|[Techniques For Keeping Testing Code Sane](chapters/techniques_for_keeping_testing_code_sane.md)|2015-04-05|Words: 0|
-|[Nested Before And After Usage](chapters/nested_before_and_after_usage.md)|2015-04-05|Words: 0|
-|[Creation Of App-Centric It Blocks](chapters/creation_of_app-centric_it_blocks.md)|2015-04-05|Words: 0|
-|[Fixtures And Factories](chapters/fixtures_and_factories.md)|2015-04-05|Words: 0|
-|[Networking In View Controllers  Network Models](chapters/networking_in_view_controllers__network_models.md)|2015-04-05|Words: 0|
-|[Animations](chapters/animations.md)|2015-07-25|Words: 135|
-|[Techniques For Getting Around Async Testing](chapters/techniques_for_getting_around_async_testing.md)|2015-04-05|Words: 0|
-|[Dispatch Asyncs  Ar Dispatch Etc](chapters/dispatch_asyncs__ar_dispatch_etc.md)|2015-07-25|Words: 370|
-|[Will And Xctest 6](chapters/will_and_xctest_6.md)|2015-04-05|Words: 0|
-|[Techniques For Testing Different Aspects Of The App](chapters/techniques_for_testing_different_aspects_of_the_app.md)|2015-04-05|Words: 0|
-|[Views  Snapshots](chapters/views__snapshots.md)|2015-04-05|Words: 0|
-|[Scroll Views](chapters/scroll_views.md)|2015-04-05|Words: 0|
-|[User Interactions](chapters/user_interactions.md)|2015-04-05|Words: 0|
-|[Ipad And Iphone](chapters/ipad_and_iphone.md)|2015-04-05|Words: 0|
-|[Testing Delegates](chapters/testing_delegates.md)|2016-03-07|Words: 455|
-|[Core Data](chapters/core_data.md)|2015-04-05|Words: 0|
-|[Assert On Accessing Main Context](chapters/assert_on_accessing_main_context.md)|2015-04-05|Words: 0|
-|[Stubbed Core Data Contexts](chapters/stubbed_core_data_contexts.md)|2015-04-05|Words: 400|
-|[Core Data Migrations](chapters/core_data_migrations.md)|2015-07-30|Words: 535|
-|[Making Libraries To Get Annoying Tests Out Of Your App](chapters/making_libraries_to_get_annoying_tests_out_of_your_app.md)|2015-04-05|Words: 0|
-|[Using Xcode Pragmatically](chapters/using_xcode_pragmatically.md)|2015-04-05|Words: 0|
-|[Improving Xcode](chapters/improving_xcode.md)|2015-04-05|Words: 0|
-|[Expanding On Specta And Expecta](chapters/expanding_on_specta_and_expecta.md)|2015-04-05|Words: 0|
-|[Test Driven Development](chapters/test_driven_development.md)|2015-04-05|Words: 0|
-|[Swift](chapters/swift.md)|2015-04-05|Words: 0|
-|[Books](chapters/books.md)|2015-04-05|Words: 0|
-|[Twitter Follows](chapters/twitter_follows.md)|2015-04-05|Words: 0|
-|[Recommended Websites](chapters/recommended_websites.md)|2015-04-05|Words: 51|
-|[Oss Testing In iOS](chapters/oss_testing_in_ios.md)|2015-04-05|Words: 0|
-|[Restkit Plus Afnetworking](chapters/restkit_plus_afnetworking.md)|2015-04-05|Words: 0|
-|[Moya And Eidolon](chapters/moya_and_eidolon.md)|2015-04-05|Words: 0|
-|[What And Why Of The Book](chapters/what_and_why_of_the_book.md)|2016-03-07|Words: 517|
-|[How Can I Be Pragmatic With My Testing](chapters/how_can_i_be_pragmatic_with_my_testing.md)|2016-03-08|Words: 370|
-|[Useful Terminology](chapters/useful_terminology.md)|2015-04-05|Words: 105|
-|[What Is Xctest How Does It Work](chapters/what_is_xctest_how_does_it_work.md)|2016-03-08|Words: 558|
-|[Types Of Testing](chapters/types_of_testing.md)|2016-03-08|Words: 216|
-|[Unit Testing](chapters/unit_testing.md)|2016-03-08|Words: 336|
-|[Behavior Testing](chapters/behavior_testing.md)|2016-03-10|Words: 905|
-|[Integration Testing](chapters/integration_testing.md)|2016-03-10|Words: 405|
-|[Testing Terminology](chapters/testing_terminology.md)|2015-04-05|Words: 503|
-|[Dependency Injection](chapters/dependency_injection.md)|2015-04-05|Words: 326|
-|[Stubs And Mocks](chapters/stubs_and_mocks.md)|2015-04-05|Words: 0|
-|[Fakes  Plus Protocols ](chapters/fakes__plus_protocols_.md)|2015-04-05|Words: 0|
-|[Tooling For The Types Of Testing](chapters/tooling_for_the_types_of_testing.md)|2015-04-05|Words: 0|
-|[Unit Testing  Specta And Quick ](chapters/unit_testing__specta_and_quick_.md)|2016-03-08|Words: 0|
-|[Three Types Of Unit Tests](chapters/Three_Types_of_Unit_Tests.md)|2016-03-08|Words: 314|
-|[Mocking And Stubbing  Ocmock And Ocmockito ](chapters/mocking_and_stubbing__ocmock_and_ocmockito_.md)|2015-04-05|Words: 0|
-|[Network Stubbing  Ohttp And Vcrurlconnection](chapters/network_stubbing__ohttp_and_vcrurlconnection.md)|2015-04-05|Words: 0|
-|[Getting Setup](chapters/getting_setup.md)|2015-04-05|Words: 324|
-|[How I Got Started](chapters/how_i_got_started.md)|2015-04-05|Words: 196|
-|[Starting A New Application And Using Tests](chapters/starting_a_new_application_and_using_tests.md)|2015-04-05|Words: 0|
-|[Introducing Tests Into An Existing Application](chapters/introducing_tests_into_an_existing_application.md)|2015-04-05|Words: 339|
-|[Developer Operations Aka Automation](chapters/developer_operations_aka_automation.md)|2016-03-06|Words: 1275|
-|[Techniques For Keeping Testing Code Sane](chapters/techniques_for_keeping_testing_code_sane.md)|2015-04-05|Words: 0|
-|[Nested Before And After Usage](chapters/nested_before_and_after_usage.md)|2015-04-05|Words: 0|
-|[Creation Of App-Centric It Blocks](chapters/creation_of_app-centric_it_blocks.md)|2015-04-05|Words: 0|
-|[Fixtures And Factories](chapters/fixtures_and_factories.md)|2015-04-05|Words: 0|
-|[Networking In View Controllers  Network Models](chapters/networking_in_view_controllers__network_models.md)|2015-04-05|Words: 0|
-|[Animations](chapters/animations.md)|2015-07-25|Words: 135|
-|[Techniques For Getting Around Async Testing](chapters/techniques_for_getting_around_async_testing.md)|2015-04-05|Words: 0|
-|[Dispatch Asyncs  Ar Dispatch Etc](chapters/dispatch_asyncs__ar_dispatch_etc.md)|2015-07-25|Words: 370|
-|[Will And Xctest 6](chapters/will_and_xctest_6.md)|2015-04-05|Words: 0|
-|[Techniques For Testing Different Aspects Of The App](chapters/techniques_for_testing_different_aspects_of_the_app.md)|2015-04-05|Words: 0|
-|[Views  Snapshots](chapters/views__snapshots.md)|2015-04-05|Words: 0|
-|[Scroll Views](chapters/scroll_views.md)|2015-04-05|Words: 0|
-|[User Interactions](chapters/user_interactions.md)|2015-04-05|Words: 0|
-|[Ipad And Iphone](chapters/ipad_and_iphone.md)|2015-04-05|Words: 0|
-|[Testing Delegates](chapters/testing_delegates.md)|2016-03-07|Words: 455|
-|[Core Data](chapters/core_data.md)|2015-04-05|Words: 0|
-|[Assert On Accessing Main Context](chapters/assert_on_accessing_main_context.md)|2015-04-05|Words: 0|
-|[Stubbed Core Data Contexts](chapters/stubbed_core_data_contexts.md)|2015-04-05|Words: 400|
-|[Core Data Migrations](chapters/core_data_migrations.md)|2015-07-30|Words: 535|
-|[Making Libraries To Get Annoying Tests Out Of Your App](chapters/making_libraries_to_get_annoying_tests_out_of_your_app.md)|2015-04-05|Words: 0|
-|[Using Xcode Pragmatically](chapters/using_xcode_pragmatically.md)|2015-04-05|Words: 0|
-|[Improving Xcode](chapters/improving_xcode.md)|2015-04-05|Words: 0|
-|[Expanding On Specta And Expecta](chapters/expanding_on_specta_and_expecta.md)|2015-04-05|Words: 0|
-|[Test Driven Development](chapters/test_driven_development.md)|2015-04-05|Words: 0|
-|[Swift](chapters/swift.md)|2015-04-05|Words: 0|
-|[Books](chapters/books.md)|2015-04-05|Words: 0|
-|[Twitter Follows](chapters/twitter_follows.md)|2015-04-05|Words: 0|
-|[Recommended Websites](chapters/recommended_websites.md)|2015-04-05|Words: 51|
-|[Oss Testing In iOS](chapters/oss_testing_in_ios.md)|2015-04-05|Words: 0|
-|[Restkit Plus Afnetworking](chapters/restkit_plus_afnetworking.md)|2015-04-05|Words: 0|
-|[Moya And Eidolon](chapters/moya_and_eidolon.md)|2015-04-05|Words: 0|
+|[Eng/What Is/What And Why Of The Book](chapters/eng/what_is/what_and_why_of_the_book.md)||Words: 518|
+|[Eng/What Is/How Can I Be Pragmatic With My Testing](chapters/eng/what_is/how_can_i_be_pragmatic_with_my_testing.md)||Words: 370|
+|[Eng/Xctest/Useful Terminology](chapters/eng/xctest/useful_terminology.md)||Words: 105|
+|[Eng/Xctest/What Is Xctest How Does It Work](chapters/eng/xctest/what_is_xctest_how_does_it_work.md)||Words: 558|
+|[Eng/Xctest/Types Of Testing](chapters/eng/xctest/types_of_testing.md)||Words: 216|
+|[Eng/Xctest/Unit Testing](chapters/eng/xctest/unit_testing.md)||Words: 336|
+|[Eng/Xctest/Behavior Testing](chapters/eng/xctest/behavior_testing.md)||Words: 1228|
+|[Eng/Xctest/Three Types Of Unit Tests](chapters/eng/xctest/Three_Types_of_Unit_Tests.md)||Words: 314|
+|[Eng/Xctest/Test Driven Development](chapters/eng/xctest/test_driven_development.md)||Words: 233|
+|[Eng/Xctest/Integration Testing](chapters/eng/xctest/integration_testing.md)||Words: 536|
+|[Eng/Xctest/Testing Terminology](chapters/eng/xctest/testing_terminology.md)||Words: 197|
+|[Eng/Foundations/Dependency Injection](chapters/eng/foundations/dependency_injection.md)||Words: 806|
+|[Eng/Foundations/Stubs And Mocks](chapters/eng/foundations/stubs_and_mocks.md)||Words: 200|
+|[Eng/Foundations/Fakes  Plus Protocols ](chapters/eng/foundations/fakes__plus_protocols_.md)||Words: 151|
+|[Eng/Oss Libs/Expanding On Bdd Frameworks](chapters/eng/oss_libs/expanding_on_bdd_frameworks.md)||Words: 3|
+|[Eng/Oss Libs/Mocking And Stubbing  Ocmock And Ocmockito ](chapters/eng/oss_libs/mocking_and_stubbing__ocmock_and_ocmockito_.md)||Words: 0|
+|[Eng/Oss Libs/Network Stubbing  Ohttp And Vcrurlconnection](chapters/eng/oss_libs/network_stubbing__ohttp_and_vcrurlconnection.md)||Words: 0|
+|[Eng/Setup/Getting Setup](chapters/eng/setup/getting_setup.md)||Words: 313|
+|[Eng/Setup/How I Got Started](chapters/eng/setup/how_i_got_started.md)||Words: 196|
+|[Eng/Setup/Starting A New Application And Using Tests](chapters/eng/setup/starting_a_new_application_and_using_tests.md)||Words: 0|
+|[Eng/Setup/Introducing Tests Into An Existing Application](chapters/eng/setup/introducing_tests_into_an_existing_application.md)||Words: 337|
+|[Eng/Ops/Developer Operations Aka Automation](chapters/eng/ops/developer_operations_aka_automation.md)||Words: 1275|
+|[Eng/Ops/Techniques For Keeping Testing Code Sane](chapters/eng/ops/techniques_for_keeping_testing_code_sane.md)||Words: 0|
+|[Eng/Ops/Creation Of App-Centric It Blocks](chapters/eng/ops/creation_of_app-centric_it_blocks.md)||Words: 0|
+|[Eng/Ops/Fixtures And Factories](chapters/eng/ops/fixtures_and_factories.md)||Words: 0|
+|[Eng/Async/Techniques For Getting Around Async Testing](chapters/eng/async/techniques_for_getting_around_async_testing.md)||Words: 0|
+|[Eng/Async/Techniques For Getting Around Async Networking](chapters/eng/async/techniques_for_getting_around_async_networking.md)||Words: 0|
+|[Eng/Async/Networking In View Controllers  Network Models](chapters/eng/async/networking_in_view_controllers__network_models.md)||Words: 425|
+|[Eng/Async/Animations](chapters/eng/async/animations.md)||Words: 148|
+|[Eng/Async/Dispatch Asyncs  Ar Dispatch Etc](chapters/eng/async/dispatch_asyncs__ar_dispatch_etc.md)||Words: 510|
+|[Eng/Async/Will And Xctest 6](chapters/eng/async/will_and_xctest_6.md)||Words: 0|
+|[Eng/App Testing/Techniques For Testing Different Aspects Of The App](chapters/eng/app_testing/techniques_for_testing_different_aspects_of_the_app.md)||Words: 0|
+|[Eng/App Testing/Views  Snapshots](chapters/eng/app_testing/views__snapshots.md)||Words: 0|
+|[Eng/App Testing/Scroll Views](chapters/eng/app_testing/scroll_views.md)||Words: 0|
+|[Eng/App Testing/User Interactions](chapters/eng/app_testing/user_interactions.md)||Words: 0|
+|[Eng/App Testing/Ipad And Iphone](chapters/eng/app_testing/ipad_and_iphone.md)||Words: 0|
+|[Eng/App Testing/Testing Delegates](chapters/eng/app_testing/testing_delegates.md)||Words: 455|
+|[Eng/Core Data/Core Data](chapters/eng/core_data/core_data.md)||Words: 778|
+|[Eng/Core Data/Core Data Migrations](chapters/eng/core_data/core_data_migrations.md)||Words: 490|
+|[Eng/Prag Prog/Making Libraries To Get Annoying Tests Out Of Your App](chapters/eng/prag_prog/making_libraries_to_get_annoying_tests_out_of_your_app.md)||Words: 0|
+|[Eng/Prag Prog/Using Xcode Pragmatically](chapters/eng/prag_prog/using_xcode_pragmatically.md)||Words: 0|
+|[Eng/Prag Prog/Improving Xcode](chapters/eng/prag_prog/improving_xcode.md)||Words: 0|
+|[Eng/Wrap Up/Books](chapters/eng/wrap_up/books.md)||Words: 0|
+|[Eng/Wrap Up/Twitter Follows](chapters/eng/wrap_up/twitter_follows.md)||Words: 0|
+|[Eng/Wrap Up/Recommended Websites](chapters/eng/wrap_up/recommended_websites.md)||Words: 51|
 
 ##### Generating the ebook
 

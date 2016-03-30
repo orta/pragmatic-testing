@@ -13,7 +13,6 @@ it(@"sets up its properties upon initialization", ^{
   // Assert
   expect(model.show).to.equal(show);
 });
-
 ```
 
 > [ARShowNetworkModelTests.m](https://github.com/artsy/eigen/blob/6635bd8dc62186422ad6537dbc582e828bcb3776/Artsy%20Tests/ARShowNetworkModelTests.m#L18-L22)

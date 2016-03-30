@@ -9,10 +9,21 @@ I'm happy to have other people send pull requests to the book, adding or amendin
 
   Talk about personal experiences with ideas, and their trade-offs. It's great that you can test everything, but if it comes at the trade-off of a time intensive test suite. Let people know.
 
+* Down to Earth
+  Functional programming, protocol oriented programming, Reactive Programming, MVVM, etc. etc. - are all nice, but this book isn't for architecture astronauts. We want to be sticking with the well-known, well documented classics.
+
+  Write like you talk, this isn't going to be published by a fancy publisher, so it should be in a casual tone.
+
 * Simplicity Ships
   This project is like, a million months overdue. Don't faff with changing formats or adding extra engineering work to "make things easier to write."
 
   Also, seriously, don't try making or improving a text editor just for this. Just use TextMate, with markdown, and "Deal with it."
+
+  ``` shell
+  mkdir -p ~/Library/Application\ Support/Avian/Bundles
+  cd ~/Library/Application\ Support/Avian/Bundles
+  git clone https://github.com/mikemcquaid/GitHub-Markdown.tmbundle
+  ```
 
 * Be Opinionated
   Presenting options for anything is fine, but this book is about being pragmatic, not providing a tonne of sites to read through before being able to make a decision.

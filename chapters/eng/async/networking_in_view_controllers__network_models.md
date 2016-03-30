@@ -34,6 +34,7 @@ Then we need to have an object that conforms to this in our app:
 
 ```swift
 class UserNamesTableNetworkModel: UserNamesTableNetworkModelType {
+
   func getUserNames(completion: () -> ([String])) {
     MyNetworkingClient.sharedClient().getUsers { users in
       completion(users.map {$0.name})
@@ -46,6 +47,7 @@ We can then bring this into our ViewController to handle pulling in data:
 
 ``` swift
 class UserNamesTableVC: UITableViewController {
+
   var network: UserNamesTableNetworkModelType = UserNamesTableNetworkModel()
 
   override func viewDidLoad() {
@@ -57,4 +59,35 @@ class UserNamesTableVC: UITableViewController {
 }
 ```
 
-OK, so we've abstracted it out a little, this is very similar to what happened back in the Dependency Injection chapter.
+OK, so we've abstracted it out a little, this is very similar to what happened back in the Dependency Injection chapter. To use network models to their fullest, we want to make another object that conforms to the `UserNamesTableNetworkModelType` protocol.
+
+``` swift
+class StubbedUserNamesTableNetworkModel: UserNamesTableNetworkModelType {
+
+  var userNames = []
+  func getUserNames(completion: () -> ([String])) {
+    completion(userNames)
+  }
+}
+```
+
+Now in our tests we can use the `StubbedUserNamesTableNetworkModel` instead of the `UserNamesTableNetworkModel` and we've got synchronous networking, and really simple tests.
+
+``` swift
+it("shows the same amount names in the tableview") {
+  let stubbedNetwork = StubbedUserNamesTableNetworkModel()
+  stubbedNetwork.names = ["gemma", "dmitry"]
+
+  let subject = UserNamesTableVC()
+  subject.network = stubbedNetwork
+
+  // Triggers viewDidLoad (and the rest of the viewXXX methods)
+  subject.beginAppearanceTransition(true, animated: false)
+  subject.endAppearanceTransition()
+
+  let rows = subject.tableView.numberOfRowsInSection(0)
+  expect(rows) == stubbedNetwork.names.count
+}
+```
+
+This pattern has saved us a lot of trouble over a long time. It's a nice pattern for one-off networking issues, and can slowly be adopted over time.

@@ -23,14 +23,7 @@ class TableOfContents
   end
 
 def add_markdown_files_to template
-    mdfiles = []
-    Dir.foreach('./chapters') do |item|
-      next if item == '.' or item == '..'
-      next if item[-2..-1] != "md"
-      next if item == "README.md"
-
-      mdfiles << "./chapters/" + item
-    end
+    mdfiles = get_markdown_files
 
     left_overs = MARKDOWN_FILES - mdfiles
 
