@@ -30,11 +30,11 @@ MARKDOWN_FILES = %w[
   chapters/eng/ops/creation_of_app-centric_it_blocks.md
   chapters/eng/ops/fixtures_and_factories.md
 
+  chapters/eng/async/dispatch_asyncs__ar_dispatch_etc.md
   chapters/eng/async/techniques_for_getting_around_async_testing.md
   chapters/eng/async/techniques_for_getting_around_async_networking.md
   chapters/eng/async/networking_in_view_controllers__network_models.md
   chapters/eng/async/animations.md
-  chapters/eng/async/dispatch_asyncs__ar_dispatch_etc.md
   chapters/eng/async/will_and_xctest_6.md
 
   chapters/eng/app_testing/techniques_for_testing_different_aspects_of_the_app.md

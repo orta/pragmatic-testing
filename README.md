@@ -38,18 +38,18 @@ Wanna contribute? [read this](CONTRIBUTING.md).
 |[Eng/Ops/Techniques For Keeping Testing Code Sane](chapters/eng/ops/techniques_for_keeping_testing_code_sane.md)|2016-03-30|Words: 0|
 |[Eng/Ops/Creation Of App-Centric It Blocks](chapters/eng/ops/creation_of_app-centric_it_blocks.md)|2016-03-30|Words: 0|
 |[Eng/Ops/Fixtures And Factories](chapters/eng/ops/fixtures_and_factories.md)|2016-03-30|Words: 0|
-|[Eng/Async/Techniques For Getting Around Async Testing](chapters/eng/async/techniques_for_getting_around_async_testing.md)|2016-03-30|Words: 0|
+|[Eng/Async/Dispatch Asyncs  Ar Dispatch Etc](chapters/eng/async/dispatch_asyncs__ar_dispatch_etc.md)|2016-03-30|Words: 667|
+|[Eng/Async/Techniques For Getting Around Async Testing](chapters/eng/async/techniques_for_getting_around_async_testing.md)|2016-03-30|Words: 87|
 |[Eng/Async/Techniques For Getting Around Async Networking](chapters/eng/async/techniques_for_getting_around_async_networking.md)|2016-03-30|Words: 0|
 |[Eng/Async/Networking In View Controllers  Network Models](chapters/eng/async/networking_in_view_controllers__network_models.md)|2016-03-30|Words: 425|
 |[Eng/Async/Animations](chapters/eng/async/animations.md)|2016-03-30|Words: 148|
-|[Eng/Async/Dispatch Asyncs  Ar Dispatch Etc](chapters/eng/async/dispatch_asyncs__ar_dispatch_etc.md)|2016-03-30|Words: 510|
 |[Eng/Async/Will And Xctest 6](chapters/eng/async/will_and_xctest_6.md)|2016-03-30|Words: 0|
 |[Eng/App Testing/Techniques For Testing Different Aspects Of The App](chapters/eng/app_testing/techniques_for_testing_different_aspects_of_the_app.md)|2016-03-30|Words: 0|
 |[Eng/App Testing/Views  Snapshots](chapters/eng/app_testing/views__snapshots.md)|2016-03-30|Words: 0|
 |[Eng/App Testing/Scroll Views](chapters/eng/app_testing/scroll_views.md)|2016-03-30|Words: 0|
 |[Eng/App Testing/User Interactions](chapters/eng/app_testing/user_interactions.md)|2016-03-30|Words: 0|
 |[Eng/App Testing/Ipad And Iphone](chapters/eng/app_testing/ipad_and_iphone.md)|2016-03-30|Words: 0|
-|[Eng/App Testing/Testing Delegates](chapters/eng/app_testing/testing_delegates.md)|2016-03-30|Words: 455|
+|[Eng/App Testing/Testing Delegates](chapters/eng/app_testing/testing_delegates.md)|2016-03-30|Words: 490|
 |[Eng/Core Data/Core Data](chapters/eng/core_data/core_data.md)|2016-03-30|Words: 778|
 |[Eng/Core Data/Core Data Migrations](chapters/eng/core_data/core_data_migrations.md)|2016-03-30|Words: 490|
 |[Eng/Prag Prog/Making Libraries To Get Annoying Tests Out Of Your App](chapters/eng/prag_prog/making_libraries_to_get_annoying_tests_out_of_your_app.md)|2016-03-30|Words: 0|

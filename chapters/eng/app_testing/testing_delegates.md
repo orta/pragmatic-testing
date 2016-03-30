@@ -27,11 +27,11 @@ class ORArtworkViewController: UITableViewController {
 }
 ```
 
-This implmentation is great if you don't want to write any tests, but it can get tricky to find ways to have your tests perform easy-to-assert on behavior with this tactic.
+This implementation is great if you don't want to write any tests, but it can get tricky to find ways to have your tests perform easy-to-assert on behavior with this tactic.
 
-One of the simplest approaches to making this type of code easy to test is to use lazy initialization, and a protocol to define the expectations but not the implementation. 
+One of the simplest approaches to making this type of code easy to test is to use lazy initialisation, and a protocol to define the expectations but not the implementation.
 
-So, define a protocol that says what methods the `ORArtworkDataSource` should have then only let the `ORArtworkViewController` know it's talking to something which conforms to this protocol. 
+So, define a protocol that says what methods the `ORArtworkDataSource` should have then only let the `ORArtworkViewController` know it's talking to something which conforms to this protocol.
 
 ```swift
 
@@ -50,10 +50,10 @@ class ORArtworkDataSource: NSObject, ORArtworkDataSourcable, UITableViewDataSour
 }
 
 class ORArtworkViewController: UITableViewController {
-   
+
     // Allows another class to change the dataSource,
     // but also will fall back to ORArtworkDataSource()
-    // when not set 
+    // when not set
     lazy var dataSource: ORArtworkDataSourcable = {
       return ORArtworkDataSource()
     }()
@@ -67,7 +67,7 @@ class ORArtworkViewController: UITableViewController {
 
 ```
 
-This allows you to create a new object that conforms to `ORArtworkDataSourcable` which can have different behavior in tests. For example:
+This allows you to create a new object that conforms to `ORArtworkDataSourcable` which can have different behaviour in tests. For example:
 
 ```swift
 it("shows a tableview cell") {
@@ -78,11 +78,11 @@ it("shows a tableview cell") {
 }
 ```
 
+There is a great video from Apple called [Protocol-Oriented Programming in Swift](https://developer.apple.com/videos/play/wwdc2015/408/) that covers this topic, and more. The video has a great example of showing how you can test a graphic interface by comparing log files because of the abstraction covered here.
 
+The same principals occur in Objective-C too, don't think this is a special Swift thing, the only major new change for Swift is the ability for a protocol to offer methods, allowing for a strange kind of multiple inheritence.
 
-There is a great video from Apple called [Protocol-Oriented Programming in Swift](https://developer.apple.com/videos/play/wwdc2015/408/) that covers this topic, and more. The video has a great example of showing how you can test a graphic interface by comparing log files because of the abstraction covered here. The same principals occur in Objective-C too. 
-
-Examples in practice:
+Examples in practice, mostly Network models:
 
 * Eigen - [ARArtistNetworkModel](https://github.com/artsy/eigen/blob/da011cb4e0cd45e9148e89b92a4021ea3651753f/Artsy/Networking/Network_Models/ARArtistNetworkModel.h) is a protocol which `ARArtistNetworkModel` and `ARStubbedArtistNetworkModel` conform to. Here are some [tests using the technique.](https://github.com/artsy/eigen/blob/da011cb4e0cd45e9148e89b92a4021ea3651753f/Artsy_Tests/View_Controller_Tests/Artist/ARArtistViewControllerTests.m#L25)
 

@@ -1,11 +1,18 @@
-
 ## Techniques for avoiding Async Testing
 
-Ideally an app should be running on multiple threads, with lots of work being done in the background. This means you can avoid having the user waiting for things to happen. A side effect of this is that asynchronous code can be difficult to test, for me there are three main ways to deal with this, in order of preference:
+Ideally an app should be running on multiple threads, with lots of work being done in the background. This means you can avoid having the user waiting for things to happen. A side effect of this is that asynchronous code can be difficult to test, as the scope for all your objects quickly collapses, and you never get callbacks in time.
+
+For me there are three main ways to deal with this, in order of preference:
 
 * Make asynchronous code run synchronously
 * Make your main test thread wait while the work is done in the background
 * Use a testing frameworks ability to have a run loop checking for a test pass
+
+One of the big downsides of using Asynchronous testing is that it can be _extremely time consuming_ trying to figure out why a test is failing, or flaky. Especially when it may only happen on CI that could have a weaker processor, less memory or be on a different OS version.
+
+An unreliable test is really, really hard to figure out, especially when you can't get a simple stack trace or log. Doubly so if it's not reproducible on a developer's computer. So I put in as much effort as possible to ensure that a test starts and ends during the `it`'s initial scope.
+
+If you're the one pitching that it's worth writing tests, you're the one that has to figure out what some obvious-ish code isn't working. For me, after years, Asynchronous tests are the one to blame the most.
 
 ### Get in line
 
