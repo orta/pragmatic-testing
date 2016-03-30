@@ -43,7 +43,7 @@ State tests work by querying the subject. In this case we’re using snapshots t
 
 An interaction test is more interesting because it usually involves more than just one subject.
 
-``` objc
+``` objc
 it(@"adds Twitter handle for Twitter", ^{
 
   // Arrange

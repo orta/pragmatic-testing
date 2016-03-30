@@ -8,6 +8,7 @@ MARKDOWN_FILES = %w[
   chapters/types_of_testing.md
   chapters/unit_testing.md
   chapters/behavior_testing.md
+  chapters/Three_Types_of_Unit_Tests.md
   chapters/integration_testing.md
   chapters/testing_terminology.md
 
@@ -17,7 +18,7 @@ MARKDOWN_FILES = %w[
 
   chapters/tooling_for_the_types_of_testing.md
   chapters/unit_testing__specta_and_quick_.md
-  chapters/Three_Types_of_Unit_Tests.md
+
   chapters/mocking_and_stubbing__ocmock_and_ocmockito_.md
   chapters/network_stubbing__ohttp_and_vcrurlconnection.md
 
@@ -57,10 +58,9 @@ MARKDOWN_FILES = %w[
   chapters/using_xcode_pragmatically.md
   chapters/improving_xcode.md
 
-  chapters/expanding_on_specta_and_expecta.md
+  chapters/expanding_on_bdd_frameworks.md
   chapters/test_driven_development.md
 
-  chapters/swift.md
   chapters/books.md
   chapters/twitter_follows.md
   chapters/recommended_websites.md

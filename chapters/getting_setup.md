@@ -1,6 +1,6 @@
 # Getting setup
 
-We're pragmatic, so we use [CocoaPods](http://cocoapods.org). It is a dependency manager for Cocoa projects, we're going to use it to pull in the required dependencies. If you're new to CocoaPods then yours truely and the rest of the CocoaPods dev team have an [extensive guides website](http://guides.cocoapods.org) to help you get started.
+We're pragmatic, so we use [CocoaPods](http://cocoapods.org). It is a dependency manager for Cocoa projects, we're going to use it to pull in the required dependencies. If you're new to CocoaPods then read the [extensive guides website](http://guides.cocoapods.org) to help you get started.
 
 ### Adding a test Target
 
@@ -12,12 +12,14 @@ I'm presuming you already have a Podfile, if you don't consult the [CocoaPods Ge
 
 ``` ruby
 pod 'ORStackView'
-...
+[...]
 
-target :AppTests, :exclusive => true do
-		pod 'Specta'
-	pod 'Expecta'
-	pod 'FBSnapshotTestCase'
+target "AppTests" do
+  inherit! :search_paths
+
+  pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
 end
 ```
 

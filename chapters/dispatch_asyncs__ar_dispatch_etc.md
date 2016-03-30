@@ -25,5 +25,21 @@ Testing frameworks typically have two options for running asynchronous tests, wi
 
 A `will` looks like this: `expect(x).will.beNil();`. By default it will fail after 0.3 seconds, but what will happen is that it constantly runs the expectation during that timeframe. In the above example it will keep checking if `x` is nil. If it succeeds then the  checks stop and it moves on. This means it takes as little time as possible.
 
+### Downsides
+
+Quite frankly though, async is something you should be avoiding. From a pragmatic perspective, I'm happy to write extra code in my app's code to make sure that it's possible to run something synchronously.
+
+For example, we expose a `Bool` called `ARPerformWorkAsynchronously` in eigen, so that we can add `animated:` flags to things that would be notoriously hard to test.
+
+For example, here is some code that upon tapping a button it will push a view controller. This can either be tested by stubbing out a the navigationViewController ( or perhaps providing an easy to test subclass (fake)) or you can allow the real work to happen fast and verify the real result. I'd be happy with the fake, or the real one.
+
+```
+- (void)tappedArtworkViewInRoom
+{
+    ARViewInRoomViewController *viewInRoomVC = [[ARViewInRoomViewController alloc] initWithArtwork:self.artwork];
+    [self.navigationController pushViewController:viewInRoomVC animated:ARPerformWorkAsynchronously];
+}
+```
+
 [ar_dispatch]:	https://github.com/orta/ar_dispatch
 [moya]:	https://github.com/ashfurrow/Moya

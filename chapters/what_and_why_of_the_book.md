@@ -4,9 +4,9 @@ This is a book that aims to be a down to earth guide to testing iOS applications
 
 I found very few consolidated resources for testing in iOS general. A lot of the best book advice revolved around reading books about Java and C# and applying the techniques to Objective-C projects. Like any creative output this book does not live in a vacuum, the books I used to get to this point are in the recommendations section.
 
-Finally this is not a generic iOS Testing book. I will not be objective. This is a pragmatic book from a pragmatic programmer known for making things, not architecting beautiful concepts. There will be things you disagree with, and I'm of the _strong opinions, weakly held_ so you're welcome to send me feedback as issues on [orta/pragmatic-testing](https://github.com/orta/pragmatic-testing)
+Finally this is not a generic iOS Testing book. I will not be objective. This is a pragmatic book from a pragmatic programmer known for making things, not architecting beautiful concepts. There will be things you disagree with, and I'm of the _strong opinions, weakly held_ camp, so you're welcome to send me feedback as issues on [orta/pragmatic-testing](https://github.com/orta/pragmatic-testing)
 
-I treat this book very similar to how I would a collection of smaller blog posts, so I aim to have it well hyperlinked. There are a lot of great resources out there, and this can spring you out into other resources. I'd rather not re-write someone when I can quote.
+I treat this book very similar to how I would a collection of smaller blog posts, so I aim to have it well hyperlinked. There are a lot of great resources out there, and this can send you out into other resources. I'd rather not re-write someone when I can quote.
 
 ## About the author, and contributors
 
@@ -22,6 +22,4 @@ Anyone interested in applying tests to iOS applications. Which hopefully should 
 
 ## Swift or Objective-C?
 
-It's easy to get caught up in what's new and shiny, but in reality there's a lot of existing Objective-C code-bases out there. I  will aim to try and cover both Swift and Objective-C. As we have test suites in both languages, some concepts work better in one language vs the other. If you can only read one language, I'm not apologising for that. It's not pragmatic to only focus like that.
-
-One great thing about writing examples in Swift though is that it's far more concise.
+It's easy to get caught up in what's new and shiny, but in reality there's a lot of existing Objective-C code-bases out there. I  will aim to try and cover both Swift and Objective-C. As we have test suites in both languages, some concepts work better in one language vs the other. If you can only read one language, I'm not apologising for that. It's not pragmatic to only focus on one language, a language is a language, in time you should know as many as possible.

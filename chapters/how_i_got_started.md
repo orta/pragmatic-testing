@@ -6,4 +6,4 @@ We had experimented once or twice with adding testing to our applications but wi
 
 At the end of 2013 the [Bus Factor](http://en.wikipedia.org/wiki/Bus_factor) for all of the knowledge in the Artsy mobile apps was through the roof. I was the only one with any knowledge of how our systems worked, what additional context anyone needed to make a change and it was not expressed in any other format.
 
-Laura Brown and dB joined the mobile team to help raise our testing standards, helping create a healthy culture around testing our changes and externalizing our expectations on what the code does into tests.
+Laura Brown and dB joined the mobile team to help raise our testing standards, helping create a healthy culture around testing our changes and externalising our expectations on what the code does into tests.

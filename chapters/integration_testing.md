@@ -1,6 +1,6 @@
 ## Integration Testing
 
-Integration Testing is a different concept to Unit Testing. It is the idea of testing changes in aggregate, as opposed to individual units. The aim is to have a lot of the finer-grained ( thinner brush ) tests covered by unit testing, then Integration Testing will help you deal with larger ideas ( a paint roller. )
+Integration Testing is a different concept to Unit Testing. It is the idea of testing changes in aggregate, as opposed to individual units. A good testing goal is to have a lot of the finer-grained ( thinner brush ) tests covered by unit testing, then Integration Testing will help you deal with larger ideas ( a paint roller. )
 
 Within the context of Cocoa, integration tests generally means writing tests against things you have no control over. Which you could argue is all of UIKit, but hey, gotta do that to build an app. Seriously though, UIKit is the most common thing against which people have done integration testing.
 
@@ -25,7 +25,9 @@ UI Testing involves running your app as though there was a human on the other si
  }
  ```
 
- Where KIF will look or wait for specific views in the view hierarchy, then perform some actions. Apple's version of KIF is similar, but different. It works by having a completely different test target just for UI Integration Tests, separate from your Unit Tests. It can build out your testsuite much faster, as it can record the things you click on in Xcode, and save those to your source files in Xcode.
+ Where KIF will look or wait for specific views in the view hierarchy, then perform some actions. Apple's version of KIF, UITesting is similar, but different.
+
+ It works by having a completely different test target just for UI Integration Tests, separate from your Unit Tests. It can build out your test suite much faster, as it can record the things you click on in the simulator, and save the actions to your source files in Xcode.
 
  These tests look like vanilla XCTest, here's some examples from [Deck-Tracker](https://github.com/raiden007/Deck-Tracker/blob/aa6aba5dbfb2762f6e45aab9749c28fa5e8329c4/Deck%20TrackerUITests/About.swift)
 
@@ -60,8 +62,12 @@ UI Testing involves running your app as though there was a human on the other si
 
  ```
 
-There are some good up-sides to this approach,
+There are some good up-sides to this approach, it's really fast to set up  and to re-create when something changes. It's a really wide-brushed approach to covering your tested.
+
+The biggest down-side is that it's slow. It requires running all the usual animations and networking would be performed as usual in the app. These can be worked around with some networking stubbing libraries, mainly VCR or HTTP Stubs but that adds a lot more complexity to what is generally a simple approach.
 
 ### API Testing
 
-If you have a staging
+If you have a staging environment for your API, it can be worth having your application run through a series of real-world networking tasks to verify the APIs which you rely on ( but don't necessarily maintain) continue to act in the way you expect.
+
+This can normally be built with KIF/UITesting, and can be tested

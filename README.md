@@ -7,82 +7,11 @@ An ebook about pragmatic testing strategies. Click below to get the latest epub.
 
 Or check [it on GitBook](https://www.gitbook.com/book/orta/pragmatic-ios-testing/details).
 
-##### Prospective Pages
-
-* What & Why of the book
-* What is XCTest, how does it work?
-* How can I be pragmatic with my testing?
-
-* Types of Testing
-  * Unit Testing
-  * Behaviour Testing
-  * Integration Testing
-
-* Useful terminology
-  * Testing Terminology
-	* DI
-	* Stubs / Mocks
-	* Fakes ( + protocols )
-
-* Tooling for the types of testing
-  * Unit Testing ( Specta / Expecta Quick / Nimble )
-     * Three types of unit tests
-  * Mocking / Stubbing ( OCMock / OCMockito )
-	* Network Stubbing ( OHTTP / VCRURLConnection )
-
-* Getting Setup
-  * Introducing tests into an existing application
-  * Starting a new application and using tests
-  * My tests are running in my app?
-  * Developer Operations aka Automation
-
-* Techniques for keeping testing code sane
-  * Nested Before / After usage
-  * Creation of app-centric `it` blocks
-  * Fixtures / Factories
-
-* Techniques for avoiding Async Testing
-  * Networking in View Controllers ( Network Models )
-  * Animations
-  * Dispatch Asyncs ( ar\_dispatch etc )
-  * `will` / `XCTest 6`
-
-* Techniques for testing different aspects of the app
-  * Views ( Snapshots )
-  * User interactions
-  * iPad / iPhone
-
-* Core Data
-  * Stubbed Core Data Contexts
-  * Testing Migrations
-
-* Testing Common Cocoa Patterns
-  * Delegate / Protocols
-  * Singletons
-  * Notifications
-  * KVO
-  * Networking
-  * MVC
-
-* Making libraries to get annoying tests out of your app
-* Using Xcode pragmatically
-* Improving Xcode
-* Expanding on Specta / Expecta
-* Test Driven Development
-* Swift
-* Recommended
-  * Books
-  * Websites
-  * Twitter Follows
-
-* OSS Testing in iOS
-  * RestKit + AFNetworking
-  * Moya / Eidolon
-* Eigen
+Wanna contribute? [read this](CONTRIBUTING.md).
 
 ##### Existing Pages
 
-| Topics | Last Updated | Length | 
+| Topics | Last Updated | Length |
 | -------|----|-----|
 |[What And Why Of The Book](chapters/what_and_why_of_the_book.md)|2016-03-07|Words: 517|
 |[How Can I Be Pragmatic With My Testing](chapters/how_can_i_be_pragmatic_with_my_testing.md)|2016-03-08|Words: 370|
