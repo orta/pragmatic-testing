@@ -1,3 +1,0 @@
-### Integration Testing
-
-OK

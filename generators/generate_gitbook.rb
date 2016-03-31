@@ -15,7 +15,10 @@ class GitBook
     end
 
     File.open("SUMMARY.md", 'w') { |f| f.write body }
-    File.open("gitbook_summary.md", 'w') { |f| f.write File.read("chapters/what_and_why_of_the_book.md") }
-    
+    File.open("gitbook_summary.md", 'w') { |f|
+      file = File.read("chapters/en-UK/what_is/what_and_why_of_the_book.md")
+      f.write file
+    }
+
   end
 end
