@@ -17,10 +17,10 @@ MARKDOWN_FILES = %w[
   chapters/en-UK/oss_libs/mocking_and_stubbing__ocmock_and_ocmockito_.md
   chapters/en-UK/oss_libs/network_stubbing__ohttp_and_vcrurlconnection.md
 
-  chapters/en-UK/setup/getting_setup.md
   chapters/en-UK/setup/how_i_got_started.md
-  chapters/en-UK/setup/starting_a_new_application_and_using_tests.md
+  chapters/en-UK/setup/getting_setup.md
   chapters/en-UK/setup/introducing_tests_into_an_existing_application.md
+  chapters/en-UK/setup/starting_a_new_application_and_using_tests.md
 
   chapters/en-UK/ops/developer_operations_aka_automation.md
   chapters/en-UK/ops/techniques_for_keeping_testing_code_sane.md

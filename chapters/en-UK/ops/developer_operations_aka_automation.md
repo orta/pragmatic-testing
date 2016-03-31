@@ -15,6 +15,7 @@ We use a `Makefile` like its 1983. `Makefile`s are a very simple ancient mini-la
   * Generating Version Info for App Store Deploys
   * Preparing for deploys
   * Deploying to HockeyApp
+  * Making Pull Requests
 
 ## Code Review
 
@@ -24,7 +25,9 @@ When you prepare for a code review it is a reminder to refactor, and a chance fo
 
 Finally Code Review is a really useful teaching tool. When new developers were expressed interest in working on the mobile team then I would assign them merge rights on smaller Pull Requests and explain everything going on. Giving the merger the chance to get exposure to the language before having to write any themselves.
 
-When you are working on your own it can be very difficult to maintain this, especially when you are writing projects on your own. An fellow Artsy programmer, Craig Spaeth does this beautifully when working on his own, here are some example [pull requests](https://github.com/artsy/positron/pulls?utf8=✓&q=is%3Aclosed+is%3Apr+author%3Acraigspaeth+%40craigspaeth). Each Pull Request is an atomic set of changes so that he can see what the larger goal was each time.
+When you are working on your own it can be very difficult to maintain this, especially when you are writing projects on your own. A fellow Artsy programmer, [Craig Spaeth]() does this beautifully when working on his own, here are some example [pull requests](https://github.com/artsy/positron/pulls?utf8=✓&q=is%3Aclosed+is%3Apr+author%3Acraigspaeth+%40craigspaeth). Each Pull Request is an atomic set of changes so that he can see what the larger goal was each time.
+
+TODO: Craig's adddress ^
 
 ## Continuous Integration
 
@@ -34,24 +37,26 @@ Once you have some tests running you're going to want a computer to run that cod
 
 #### Jenkins
 
-Jenkins is a popular language agnostic self-hosted CI server. There are many plugins for Jenkins around getting set up for github authentication, running Xcode projects and deploying to Hockey. It runs fine on a Mac, and you just need a Mac Mini set up somewhere that recieves calls from a github webhook. This is well documented on the internet.
+Jenkins is a popular language agnostic self-hosted CI server. There are many plugins for Jenkins around getting set up for github authentication, running Xcode projects and deploying to Hockey. It runs fine on a Mac, and you just need a Mac Mini set up somewhere that receives calls from a github web-hook. This is well documented on the internet.
 
-The general trade off here is that it is a high-cost on developer time. Jenkins is stable but requires maintainance around keeping up to date with Xcode.
+The general trade off here is that it is a high-cost on developer time. Jenkins is stable but requires maintenance around keeping up to date with Xcode.
 
 #### Buildkite.io
 
-Travis is awesome, but they’re pretty slow with releases. Buildkite lets you run your own travis-like CI system on your own hardware. This means easily running tests for Xcode betas. It differs from Jenkins in it’s simplicty. It requires significanly less setup, and require less maintainace overall. It is a program that is ran on your hardware
+Buildkite lets you run your own Travis CI-like CI system on your own hardware. This means easily running tests for Xcode betas. It differs from Jenkins in it’s simplicity. It requires significantly less setup, and require less maintenance overall. It is a program that is ran on your hardware
 
 #### Xcode Bots
 
 Xcode bots is still a bit of a mystery, though it looks like with it's second release it is now at a point where it is usable. I found them tricky to set up, and especially difficult to work with when working with a remote team and using code review.
 
-An Xcode bot is a service running on a Mac Mini, that periodically pings an external repoistory of code. It will download changes, run optional before and after scripts and then offer the results in a really beautiful user interface directly in Xcode.
+An Xcode bot is a service running on a Mac Mini, that periodically pings an external repository of code. It will download changes, run optional before and after scripts and then offer the results in a really beautiful user interface directly in Xcode.
 
 
 ### Services
 
-It's nice to have a Mac mini to hand, but it can be a lot of maintainace. Usually these are things you expect like profiles, certificates and signing. A lot of the time though it's problems with Apple's tooling. This could be Xcode shutting off halfway though a build, the Keychain locking up, the iOS simulator not launching or the test-suite not loading. For me, working at a company as an iOS developer I don't enjoy, nor want to waste time with issues like this. So I have a bias towards letting services deal with this for me.
+It's nice to have a Mac mini to hand, but it can be a lot of maintenance. Usually these are things you expect like profiles, certificates and signing. A lot of the time though it's problems with Apple's tooling. This could be Xcode shutting off halfway though a build, the Keychain locking up, the iOS simulator not launching or the test-suite not loading. For me, working at a company as an iOS developer I don't enjoy, nor want to waste time with issues like this. So I have a bias towards letting services deal with this for me.
+
+The flip-side is that you don't have much control, if you need bleeding-edge Xcode features, and you're not in control of your CI box, then you have to deal with no CI until the provider provides.
 
 #### Travis CI
 
@@ -61,25 +66,25 @@ Travis CI is configured entirely via a `.travis.yml` file in your repo which is 
 
 I really like the system of configuring everything via a single file that is held in your repository. It means all the necessary knowledge for how your application is tested is kept with the application itself.
 
+##### Circle CI
+
+We've consolidated on Circle CI for our Apps. It has the same `circle.yml` config file advantage as Travis CI, but our builds don't have to wait in an OSS queue. It also seems to have the best options for supporting simultaneous builds.
+
 ##### Bitrise.io
 
 Bitrise is a newcomer to the CI field and is focused exclusively on iOS. This is a great thing. They have been known to have both stable and betas builds of Xcode on their virtual machines. This makes it possible to keep your builds green while you add support for the greatest new things. This has, and continues to be be a major issue with Travis CI in the past.
 
 Bitrise differs from Travis CI in that it's testing system is ran as a series of steps that you can run from their website. Because of this it has a much lower barrier to entry. When given some of my simpler iOS Apps their automatic setup did everything required with no configuration.
 
-##### Circle CI
-
-[to come]
-
 #### Build
 
 ## Internal Deployment
 
-I don’t trust Apple’s Testflight service, it seems to be that there’s a problem with it everyday. Like a lot of Apple technologies, you should avoid version one unless you're willing to lose time to it.
+We eventually migrated from Hockey for betas to Testflight. In part because it felt like it was starting to mature, and also because of a [bug/feature in iOS]().
 
-However, I trust in solid, mature processes when it is your apps first impression. I deploy the internal versions of our applications as enterprise application so that anyone in our company can get the application with just a URL. We use URL shorteners to make these very easy for anyone to remember within the team.
+We deploy via Fastlane.
 
-We deploy to HockeyApp via a single command in terminal, this lowers the mental barrier to creating a build for everyone and allows a developer to fire and forget.
+TODO: Link to Eigen "App Launch Slow"
 
 ## iTunes deployment
 
