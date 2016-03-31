@@ -13,7 +13,7 @@ class TableOfContents
     rest = readme.split(start_split)[1]
     finale = rest.split(end_split)[1]
 
-    template = start_split + "\n\n| Topic | Last Updated | Length | \n| -------|----|-----|\n"
+    template = start_split + "\n\n| Topic | Last Updated | State | Length | \n| -------|------|--|-----|\n"
 
     template = add_markdown_files_to template
     template += "\n\nOver 200 words: " + rough_completion_estimate[:covered] + "%"
@@ -41,9 +41,21 @@ class TableOfContents
       last_updated = `git log -1  --date=short --pretty=format:"%ad" #{mdfile}`
       words = `wc -w #{mdfile}`.split(" ").first
 
-      template += "|[#{title}](#{mdfile})|#{last_updated}|Words: #{words}|\n"
+      template += "|[#{title}](#{mdfile})|#{last_updated}|#{state(words.to_i)}|Words: #{words}|\n"
     end
     template
+  end
+
+  def state(words)
+    if words < 100
+      "✍🏾"
+    elsif words < 200
+      "📎"
+    elsif words < 300
+      "📋"
+    else
+      "💌"
+    end
   end
 
   def rough_completion_estimate
