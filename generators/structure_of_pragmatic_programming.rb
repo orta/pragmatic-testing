@@ -2,7 +2,6 @@ MARKDOWN_FILES = %w[
   chapters/en-UK/what_is/what_and_why_of_the_book.md
   chapters/en-UK/what_is/how_can_i_be_pragmatic_with_my_testing.md
 
-  chapters/en-UK/xctest/useful_terminology.md
   chapters/en-UK/xctest/what_is_xctest_how_does_it_work.md
   chapters/en-UK/xctest/types_of_testing.md
   chapters/en-UK/xctest/unit_testing.md
@@ -10,11 +9,9 @@ MARKDOWN_FILES = %w[
   chapters/en-UK/xctest/Three_Types_of_Unit_Tests.md
   chapters/en-UK/xctest/test_driven_development.md
   chapters/en-UK/xctest/integration_testing.md
-  chapters/en-UK/xctest/testing_terminology.md
 
   chapters/en-UK/foundations/dependency_injection.md
-  chapters/en-UK/foundations/stubs_and_mocks.md
-  chapters/en-UK/foundations/fakes__plus_protocols_.md
+  chapters/en-UK/foundations/stubs_mocks_and_fakes.md
 
   chapters/en-UK/oss_libs/expanding_on_bdd_frameworks.md
   chapters/en-UK/oss_libs/mocking_and_stubbing__ocmock_and_ocmockito_.md

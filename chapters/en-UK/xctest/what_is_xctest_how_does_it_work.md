@@ -43,14 +43,13 @@ It has three tests, that each test their own expectations.
 - The second ensures that when `popen(["cat", path])` is called, it returns a number of characters greater than `4096`
 - Finally the third one checks an expectation, and if it's wrong, it will faile the test.
 
-
-// ED NOTE: Should this hosted/not hosted live here? prob not
-
 ##### What is the difference between hosted test targets and unhosted
 
 When talking pragmatically, we're really talking about writing tests against apps or libraries. Depending on whether you have dependencies on Cocoa or UIKit, you end up having to make a choice. Hosted, or not hosted.
 
-The terminology has changed recently, a hosted test used to be known as Application Tests, and unhosted was known as Logic Tests. The older terminology gives a better hint at how the tests would be ran. A hosted test is ran inside your application after `application:didFinishLaunchingWithOptions:` has finished. This means there is afully running application context.
+The terminology has changed recently, a hosted test used to be known as Application Tests, and "unhosted" was known as Logic Tests. The older terminology gives a better hint at how the tests would be ran.
+
+A hosted test is ran inside your application after `application:didFinishLaunchingWithOptions:` has finished. This means there is a fully running application, and your tests run with that happening around it. This gives you access to a graphics context, the application's bundle and other useful bits and pieces.
 
 Un-hosted tests are useful if you're testing something very ephemeral/logical and relying only on Foundation, but anything related to UIKit/Cocoa subclasses will eventually require you to host the test bundle in an application. You'll see this come up every now and again when setting up test suites.
 

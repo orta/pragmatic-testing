@@ -13,10 +13,10 @@ class TableOfContents
     rest = readme.split(start_split)[1]
     finale = rest.split(end_split)[1]
 
-    template = start_split + "\n\n| Topics | Last Updated | Length | \n| -------|----|-----|\n"
+    template = start_split + "\n\n| Topic | Last Updated | Length | \n| -------|----|-----|\n"
 
     template = add_markdown_files_to template
-    template += "\nOver 200 words: " + rough_completion_estimate[:covered] + "%"
+    template += "\n\nOver 200 words: " + rough_completion_estimate[:covered] + "%"
     template += "\nOver 300 words: " + rough_completion_estimate[:solid] + "%\n"
 
     new_file = start + template + "\n" + end_split + finale
