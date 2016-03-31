@@ -28,7 +28,7 @@ Wanna contribute? [read this](CONTRIBUTING.md).
 |[OSS Libs/Mocking And Stubbing  Ocmock And Ocmockito ](chapters/en-UK/oss_libs/mocking_and_stubbing__ocmock_and_ocmockito_.md)|2016-03-31|✍🏾|Words: 0|
 |[OSS Libs/Network Stubbing  Ohttp And Vcrurlconnection](chapters/en-UK/oss_libs/network_stubbing__ohttp_and_vcrurlconnection.md)|2016-03-31|✍🏾|Words: 0|
 |[Setup/Getting Setup](chapters/en-UK/setup/getting_setup.md)|2016-03-31|💌|Words: 313|
-|[Setup/How I Got Started](chapters/en-UK/setup/how_i_got_started.md)|2016-03-31|📎|Words: 196|
+|[Setup/How I Got Started](chapters/en-UK/setup/how_i_got_started.md)|2016-03-31|💌|Words: 333|
 |[Setup/Starting A New Application And Using Tests](chapters/en-UK/setup/starting_a_new_application_and_using_tests.md)|2016-03-31|✍🏾|Words: 0|
 |[Setup/Introducing Tests Into An Existing Application](chapters/en-UK/setup/introducing_tests_into_an_existing_application.md)|2016-03-31|💌|Words: 337|
 |[Ops/Developer Operations Aka Automation](chapters/en-UK/ops/developer_operations_aka_automation.md)|2016-03-31|💌|Words: 1275|
@@ -57,8 +57,8 @@ Wanna contribute? [read this](CONTRIBUTING.md).
 |[Wrap Up/Recommended Websites](chapters/en-UK/wrap_up/recommended_websites.md)|2016-03-31|✍🏾|Words: 51|
 
 
-Over 200 words: 47.6%
-Over 300 words: 47.6%
+Over 200 words: 50.0%
+Over 300 words: 50.0%
 
 ##### Generating the ebook
 
