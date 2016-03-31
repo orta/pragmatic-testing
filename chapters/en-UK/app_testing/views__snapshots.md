@@ -1,4 +1,4 @@
-### Snapshot Testing
+## Snapshot Testing
 
 The process of taking a snapshot of the view hierarchy of a UIView subclass, then storing that as a reference for what your app should look like.
 
@@ -13,10 +13,10 @@ We aim for snapshot tests to cover two main areas
 1. Overall state for View Controllers
 2. Individual States per View Component
 
-As snapshots are the largest testing brush, and as the apps I work on tend to be fancy perspectives on remote data. Snapshot testing provides easy coverage,
+As snapshots are the largest testing brush, and as the apps I work on tend to be fancy perspectives on remote data. Snapshot testing provides easy coverage, for larger complex objects like view controllers
 
 
-### Got-chas with Testing View Controllers
+### Common issues with Testing View Controllers
 
 Turns out to really grok why some problems happen you have to have quite a solid foundation in:
 

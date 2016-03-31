@@ -13,13 +13,14 @@ class TableOfContents
     rest = readme.split(start_split)[1]
     finale = rest.split(end_split)[1]
 
-    template = start_split + "\n\n| Topic | Last Updated | State | Length | \n| -------|------|--|-----|\n"
+    template = start_split + "\n\n| Topic | Last Updated | State | Length | \n| -------|------|---|-----|\n"
 
     template = add_markdown_files_to template
     template += "\n\nOver 200 words: " + rough_completion_estimate[:covered] + "%"
-    template += "\nOver 300 words: " + rough_completion_estimate[:solid] + "%\n"
+    template += "\nOver 300 words: " + rough_completion_estimate[:solid] + "%"
+    template += "\nTODOs: " + `grep -r TODO chapters/`.strip.lines.count.to_s
 
-    new_file = start + template + "\n" + end_split + finale
+    new_file = start + template + "\n\n\n" + end_split + finale
     File.open("README.md", 'w') { |f| f.write new_file }
 
   end

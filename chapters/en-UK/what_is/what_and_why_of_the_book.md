@@ -22,4 +22,4 @@ Anyone interested in applying tests to iOS applications. Which hopefully should 
 
 ## Swift or Objective-C?
 
-It's easy to get caught up in what's new and shiny, but in reality there's a lot of existing Objective-C code-bases out there. I  will aim to try and cover both Swift and Objective-C. As we have test suites in both languages, some concepts work better in one language vs the other. If you can only read one language, I'm not apologising for that. It's not pragmatic to only focus on one language, a language is a language, in time you should know as many as possible.
+It's easy to get caught up in what's new and shiny, but in reality there's a lot of existing Objective-C code-bases out there. I  will aim to try and cover both Swift and Objective-C. As we have test-suites in both languages, some concepts work better in one language vs the other. If you can only read one language, I'm not apologising for that. It's not pragmatic to only focus on one language, a language is a language, in time you should know as many as possible.

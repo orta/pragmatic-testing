@@ -101,7 +101,7 @@ class ModuleTests: XCTestCase {
 
 This is great, we're not quite doing so much arranging, but we're definitely doing some obvious Acting and Asserting. The tests are shorter, more concise, and nothing is lost in the refactor. This is easy when you have a few immutable `let` variables, but gets complicated once you want to have your Arrange steps perform actions.
 
-Behaviour Driven Development is about being able to have a consistent vocabulary in your test suites. BDD defines the terminology, so they're the same between BDD libraries. This means, if you use [Rspec](https://github.com/rspec/rspec), [Specta](https://github.com/specta/specta/), [Quick](https://github.com/quick/quick), [Ginkgo](https://github.com/onsi/ginkgo) and many others you will be able to employ similar testing structures.
+Behaviour Driven Development is about being able to have a consistent vocabulary in your test-suites. BDD defines the terminology, so they're the same between BDD libraries. This means, if you use [Rspec](https://github.com/rspec/rspec), [Specta](https://github.com/specta/specta/), [Quick](https://github.com/quick/quick), [Ginkgo](https://github.com/onsi/ginkgo) and many others you will be able to employ similar testing structures.
 
 So what are these words?
 

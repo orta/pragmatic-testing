@@ -36,7 +36,7 @@ Once you have some tests running you're going to want a computer to run that cod
 
 Jenkins is a popular language agnostic self-hosted CI server. There are many plugins for Jenkins around getting set up for github authentication, running Xcode projects and deploying to Hockey. It runs fine on a Mac, and you just need a Mac Mini set up somewhere that recieves calls from a github webhook. This is well documented on the internet.
 
-The general trade off here is that it is a high-cost on developer time. Jenkins is stable but requires maintainance around keeping up to date with Xcode.  
+The general trade off here is that it is a high-cost on developer time. Jenkins is stable but requires maintainance around keeping up to date with Xcode.
 
 #### Buildkite.io
 
@@ -44,14 +44,14 @@ Travis is awesome, but they’re pretty slow with releases. Buildkite lets you r
 
 #### Xcode Bots
 
-Xcode bots is still a bit of a mystery, though it looks like with it's second release it is now at a point where it is usable. I found them tricky to set up, and especially difficult to work with when working with a remote team and using code review. 
+Xcode bots is still a bit of a mystery, though it looks like with it's second release it is now at a point where it is usable. I found them tricky to set up, and especially difficult to work with when working with a remote team and using code review.
 
 An Xcode bot is a service running on a Mac Mini, that periodically pings an external repoistory of code. It will download changes, run optional before and after scripts and then offer the results in a really beautiful user interface directly in Xcode.
 
 
-### Services 
+### Services
 
-It's nice to have a Mac mini to hand, but it can be a lot of maintainace. Usually these are things you expect like profiles, certificates and signing. A lot of the time though it's problems with Apple's tooling. This could be Xcode shutting off halfway though a build, the Keychain locking up, the iOS simulator not launching or the Test Suite not loading. For me, working at a company as an iOS developer I don't enjoy, nor want to waste time with issues like this. So I have a bias towards letting services deal with this for me.
+It's nice to have a Mac mini to hand, but it can be a lot of maintainace. Usually these are things you expect like profiles, certificates and signing. A lot of the time though it's problems with Apple's tooling. This could be Xcode shutting off halfway though a build, the Keychain locking up, the iOS simulator not launching or the test-suite not loading. For me, working at a company as an iOS developer I don't enjoy, nor want to waste time with issues like this. So I have a bias towards letting services deal with this for me.
 
 #### Travis CI
 
@@ -79,7 +79,7 @@ I don’t trust Apple’s Testflight service, it seems to be that there’s a pr
 
 However, I trust in solid, mature processes when it is your apps first impression. I deploy the internal versions of our applications as enterprise application so that anyone in our company can get the application with just a URL. We use URL shorteners to make these very easy for anyone to remember within the team.
 
-We deploy to HockeyApp via a single command in terminal, this lowers the mental barrier to creating a build for everyone and allows a developer to fire and forget. 
+We deploy to HockeyApp via a single command in terminal, this lowers the mental barrier to creating a build for everyone and allows a developer to fire and forget.
 
 ## iTunes deployment
 

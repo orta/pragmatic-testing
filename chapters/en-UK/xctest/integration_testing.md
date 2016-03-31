@@ -27,7 +27,7 @@ UI Testing involves running your app as though there was a human on the other si
 
  Where KIF will look or wait for specific views in the view hierarchy, then perform some actions. Apple's version of KIF, UITesting is similar, but different.
 
- It works by having a completely different test target just for UI Integration Tests, separate from your Unit Tests. It can build out your test suite much faster, as it can record the things you click on in the simulator, and save the actions to your source files in Xcode.
+ It works by having a completely different test target just for UI Integration Tests, separate from your Unit Tests. It can build out your test-suite much faster, as it can record the things you click on in the simulator, and save the actions to your source files in Xcode.
 
  These tests look like vanilla XCTest, here's some examples from [Deck-Tracker](https://github.com/raiden007/Deck-Tracker/blob/aa6aba5dbfb2762f6e45aab9749c28fa5e8329c4/Deck%20TrackerUITests/About.swift)
 

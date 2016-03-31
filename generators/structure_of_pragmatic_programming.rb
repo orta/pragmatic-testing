@@ -5,8 +5,8 @@ MARKDOWN_FILES = %w[
   chapters/en-UK/xctest/what_is_xctest_how_does_it_work.md
   chapters/en-UK/xctest/types_of_testing.md
   chapters/en-UK/xctest/unit_testing.md
+  chapters/en-UK/xctest/three_types_of_unit_tests.md
   chapters/en-UK/xctest/behavior_testing.md
-  chapters/en-UK/xctest/Three_Types_of_Unit_Tests.md
   chapters/en-UK/xctest/test_driven_development.md
   chapters/en-UK/xctest/integration_testing.md
 

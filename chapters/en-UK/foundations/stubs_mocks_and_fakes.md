@@ -20,7 +20,7 @@ From a personal opinion I avoid stubbing and mocking code which is under my cont
 
 When you first get started, using Mocks and Stubs feel like the perfect tool for testing code, but it becomes unwieldy as it can quickly get out of sync with reality. They can be a great crutch, when you really can't figure out how to test something however.
 
-A great example of when to use stubbing is when dealing with an Apple class that you cannot easily replace or use your own copy. For example I regularly use partial mocks of `UIScreen` instances in order to emulate being on an iPad simulator when it's actually running on an iPhone simulator. This saves us time from running our test suite twice, sequentially, on multiple simulators.
+A great example of when to use stubbing is when dealing with an Apple class that you cannot easily replace or use your own copy. For example I regularly use partial mocks of `UIScreen` instances in order to emulate being on an iPad simulator when it's actually running on an iPhone simulator. This saves us time from running our test-suite twice, sequentially, on multiple simulators.
 
 When you own the code that you're working with, it can often be easier to use a fake.
 
