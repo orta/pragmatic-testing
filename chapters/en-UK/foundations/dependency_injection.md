@@ -21,13 +21,13 @@ Lets start with the smallest possible example, a single function:
 
 Testing this code can be tricky, as it relies on functions inside the `NSUserDefaults` and `User` class. These are the dependencies inside this function. Ideally when we test this code we want to be able to replace the dependencies with something specific to the test. There are many ways to start applying DI, but I think the easiest way here is to try and make it so that the function takes in it's dependencies as arguments. In this case we are giving the function both the `NSUserDefaults` object and a `User` model.
 
- ``` objc
- - (void)saveUser:(User *)user inDefaults:(NSUserDefaults *)defaults
- {
-	 [defaults setObject:[user dictionaryRepresentation] forKey:@"user"];
-	 [defaults setBool:YES forKey:@"injected"];
- }
- ```
+``` objc
+- (void)saveUser:(User *)user inDefaults:(NSUserDefaults *)defaults
+{
+	[defaults setObject:[user dictionaryRepresentation] forKey:@"user"];
+	[defaults setBool:YES forKey:@"injected"];
+}
+```
 
 In Swift we can use default arguments to acknowledge that we'll most often be using the `sharedUserDefaults`as the `defaults` var:
 
@@ -40,7 +40,7 @@ func saveUser(user: User, defaults: Defaults = .standardUserDefaults()){
 
 This little change in abstraction means that we can now insert our own custom objects inside this function. Thus, we can inject a new instance of both arguments and test the end results of them. Something like:
 
- ``` objc
+``` objc
 it(@"saves user defaults", ^{
 	NSUserDefaults *defaults = [[NSUserDefaults alloc] init];
 	User *user = [User stubbedUser];
@@ -51,7 +51,7 @@ it(@"saves user defaults", ^{
 	expect([user dictionaryRepresentation]).to.equal([defaults objectForKey:@"user"]);
 	expect([defaults boolForKey:@"injected"]).to.equal(YES);
 });
- ```
+```
 
  We can now easily test the changes via inspecting our custom dependencies.
 
