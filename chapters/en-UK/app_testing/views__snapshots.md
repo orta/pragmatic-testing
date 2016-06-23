@@ -4,7 +4,7 @@ The process of taking a snapshot of the view hierarchy of a UIView subclass, the
 
 ### Why Bother
 
-TLDR: Fast, easily re-producible tests of visual layouts. If you want a longer introduction, you should read my objc.io article about [Snapshott tes testing](TODO_snapshot_testing_url). I'll be assuming some familiarity from here on in.
+TLDR: Fast, easily re-producible tests of visual layouts. If you want a longer introduction, you should read my objc.io article about [Snapshot Testing](https://www.objc.io/issues/15-testing/snapshot-testing/). I'll be assuming some familiarity from here on in.
 
 ### Techniques
 
