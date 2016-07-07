@@ -26,7 +26,7 @@ Let's start by defining the relationship between `UsersNameTableVC` and it's dat
 
 ``` swift
 protocol UserNamesTableNetworkModelType {
-  func getUserNames(completion: () -> ([String]))
+  func getUserNames(completion: ([String]) -> ())
 }
 ```
 
@@ -35,7 +35,7 @@ Then we need to have an object that conforms to this in our app:
 ```swift
 class UserNamesTableNetworkModel: UserNamesTableNetworkModelType {
 
-  func getUserNames(completion: () -> ([String])) {
+  func getUserNames(completion: ([String]) -> ()) {
     MyNetworkingClient.sharedClient().getUsers { users in
       completion(users.map {$0.name})
     }
@@ -65,7 +65,7 @@ OK, so we've abstracted it out a little, this is very similar to what happened b
 class StubbedUserNamesTableNetworkModel: UserNamesTableNetworkModelType {
 
   var userNames = []
-  func getUserNames(completion: () -> ([String])) {
+  func getUserNames(completion: ([String]) -> ()) {
     completion(userNames)
   }
 }
