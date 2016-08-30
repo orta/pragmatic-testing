@@ -19,7 +19,7 @@ Lets start with the smallest possible example, a single function:
 }
 ```
 
-Testing this code can be tricky, as it relies on functions inside the `NSUserDefaults` and `User` class. These are the dependencies inside this function. Ideally when we test this code we want to be able to replace the dependencies with something specific to the test. There are many ways to start applying DI, but I think the easiest way here is to try and make it so that the function takes in it's dependencies as arguments. In this case we are giving the function both the `NSUserDefaults` object and a `User` model.
+Testing this code can be tricky, as it relies on functions inside the `NSUserDefaults` and `User` class. These are the dependencies inside this function. Ideally when we test this code we want to be able to replace the dependencies with something specific to the test. There are many ways to start applying DI, but I think the easiest way here is to try and make it so that the function takes in its dependencies as arguments. In this case we are giving the function both the `NSUserDefaults` object and a `User` model.
 
 ``` objc
 - (void)saveUser:(User *)user inDefaults:(NSUserDefaults *)defaults
@@ -57,7 +57,7 @@ it(@"saves user defaults", ^{
 
 ## Dependency Injection at Object Level
 
- Let's expand our scope of using DI, a single function can use DI via it's arguments, so then an object can expand it's scope via instance variables. As the initial explanation said.
+ Let's expand our scope of using DI, a single function can use DI via its arguments, so then an object can expand its scope via instance variables. As the initial explanation said.
 
 ``` swift
 class UserNameTableVC: UITableViewController {
