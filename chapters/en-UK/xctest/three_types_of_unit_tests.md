@@ -65,7 +65,6 @@ In this case to test the interaction between the `ARMessageItemProvider` and the
 
 #### Full Details
 
-There is a talk by Jon Reid of qualitycoding.org on this topic that is really the definitive guide to understanding how you can test a unit of code.
+There is a [talk](https://www.youtube.com/watch?v=Jzlz3Bx-NzM) by Jon Reid of qualitycoding.org on this topic that is really the definitive guide to understanding how you can test a unit of code.
 
-TODO: Get Jon Reid's MCE talk video
 TODO: Re-watch it and flesh this out a bit more

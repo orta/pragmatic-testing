@@ -31,7 +31,7 @@ You would then move on to the next test, which may verify the type of value retu
 
 #### When to use TDD?
 
-TDD works really well when you have to work on a bug, you produce the test that represents the fixed bug first (red), then you can fix the bug (green) and finally you can clean up the code you've changes (refactor.)
+TDD works really well when you have to work on a bug, you produce the test that represents the fixed bug first (red), then you can fix the bug (green) and finally you can clean up the code you've changed. (refactor.)
 
 I've found that TDD works well when I know a lot of the states of my view controllers up front, I would write something like this:
 
@@ -49,9 +49,7 @@ override func spec() {
 }
 ```
 
-Which eventually turned into: LiveAuctionBidHistoryViewControllerTests.swift
-
-// TODO link to LiveAuctionBidHistoryViewControllerTests
+Which eventually turned into: [LiveAuctionBidHistoryViewControllerTests.swift](https://github.com/artsy/eigen/blob/master/Artsy_Tests/View_Controller_Tests/Live_Auction/LiveAuctionBidHistoryViewControllerTests.swift)
 
 Which would give me an overview of the types of states I wanted to represent. Then I could work through adding snapshots of each state to the tests, in order to make sure I don't miss anything.
 

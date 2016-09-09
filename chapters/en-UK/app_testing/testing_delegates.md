@@ -80,7 +80,7 @@ it("shows a tableview cell") {
 
 There is a great video from Apple called [Protocol-Oriented Programming in Swift](https://developer.apple.com/videos/play/wwdc2015/408/) that covers this topic, and more. The video has a great example of showing how you can test a graphic interface by comparing log files because of the abstraction covered here.
 
-The same principals occur in Objective-C too, don't think this is a special Swift thing, the only major new change for Swift is the ability for a protocol to offer methods, allowing for a strange kind of multiple inheritence.
+The same principles occur in Objective-C too, don't think this is a special Swift thing, the only major new change for Swift is the ability for a protocol to offer methods, allowing for a strange kind of multiple inheritence.
 
 Examples in practice, mostly Network models:
 
