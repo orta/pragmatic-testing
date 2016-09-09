@@ -49,9 +49,7 @@ override func spec() {
 }
 ```
 
-Which eventually turned into: LiveAuctionBidHistoryViewControllerTests.swift
-
-// TODO link to LiveAuctionBidHistoryViewControllerTests
+Which eventually turned into: [LiveAuctionBidHistoryViewControllerTests.swift](https://github.com/artsy/eigen/blob/master/Artsy_Tests/View_Controller_Tests/Live_Auction/LiveAuctionBidHistoryViewControllerTests.swift)
 
 Which would give me an overview of the types of states I wanted to represent. Then I could work through adding snapshots of each state to the tests, in order to make sure I don't miss anything.
 
