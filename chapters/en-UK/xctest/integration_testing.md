@@ -6,7 +6,7 @@ Within the context of Cocoa, integration tests generally means writing tests aga
 
 ### UI Testing
 
-UI Testing involves running your app as though there was a human on the other side tappig buttons, waiting for animations and filling in all of bits of data. The APIs make it easy to make tests like "If I've not added an email, is the submit button disabled?"  and "After hitting submit with credentials, do it go to the home screen?" These let you write tests pretty quickly ( it's now built into Xcode ) and it can be used to provide a lot of coverage fast.
+UI Testing involves running your app as though there was a human on the other side tapping buttons, waiting for animations and filling in all of bits of data. The APIs make it easy to make tests like "If I've not added an email, is the submit button disabled?"  and "After hitting submit with credentials, do it go to the home screen?" These let you write tests pretty quickly ( it's now built into Xcode ) and it can be used to provide a lot of coverage fast.
 
  The tooling for in the OSS world is pretty mature now. The dominant player is [Square's KIF](https://github.com/square/kif). [KIF's tests](https://github.com/mozilla/firefox-ios/blob/451665a7239c46cf2be3f47e3c903d88d2d710ec/UITests/ReaderViewUITests.swift#L8) generally look like this:
 

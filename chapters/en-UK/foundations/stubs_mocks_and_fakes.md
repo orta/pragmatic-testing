@@ -10,7 +10,7 @@ In Objective-C you can define mocks that act as specific instance of a class, co
 
 ### Stubs
 
-A stub is a method that is replaced at runtime with another implementation. It is common for a stub to not call the original method. It's useful in setting up context for when you want to use known a return value with a method.
+A stub is a method that is replaced at runtime with another implementation. It is common for a stub to not call the original method. It's useful in setting up context for when you want to use a known return value with a method.
 
 You can think of it as being method swizzling, really.
 

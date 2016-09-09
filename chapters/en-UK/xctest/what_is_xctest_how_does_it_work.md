@@ -10,7 +10,7 @@ In XCTest the convention is that you subclass a XCTestCase object, and the test 
 
 The actual implementation of XCTest works by creating a bundle, which can optionally be injected into an application ( Apple calls this hosting the tests. ) The bundle contains test resources like dummy images or JSON, and your test code. There is a version of [XCTest open source'd](https://github.com/apple/swift-corelibs-xctest) by Apple.
 
-XCTest provides a series of macros or functions [based on OCUnit's](https://github.com/jy/SenTestingKit/blob/master/SenTestCase_Macros.h#L82) for calling an exception when an expectation isn't met. For example `XCTAssertEqual`, XCTFail` and `XCTAssertLessThanOrEqual`. You can explore how the XCT* functions work in [the OSS XCTest](https://github.com/apple/swift-corelibs-xctest/blob/96772ca6e01e664e153d0c844fff69e94605ef17/Sources/XCTest/XCTAssert.swift#L29-L45).
+XCTest provides a series of macros or functions [based on OCUnit's](https://github.com/jy/SenTestingKit/blob/master/SenTestCase_Macros.h#L82) for calling an exception when an expectation isn't met. For example `XCTAssertEqual`, `XCTFail` and `XCTAssertLessThanOrEqual`. You can explore how the XCT* functions work in [the OSS XCTest](https://github.com/apple/swift-corelibs-xctest/blob/96772ca6e01e664e153d0c844fff69e94605ef17/Sources/XCTest/XCTAssert.swift#L29-L45).
 
 Here's a real example of an XCTest case subclass taken from the [Swift Package Manager](https://github.com/mxcl/swift-package-manager/blob/aa1700c0b7b94a5639c54d746e60404fbbda597f/Tests/Utility/ShellTests.swift):
 
