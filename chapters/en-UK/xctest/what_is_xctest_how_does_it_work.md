@@ -41,7 +41,7 @@ It has three tests, that each test their own expectations.
 
 - The first ensures that when `popen(["echo", "foo"])` is called, it returns `"foo\n"`
 - The second ensures that when `popen(["cat", path])` is called, it returns a number of characters greater than `4096`
-- Finally the third one checks an expectation, and if it's wrong, it will faile the test.
+- Finally the third one checks an expectation, and if it's wrong, it will fail the test.
 
 ##### What is the difference between hosted test targets and unhosted
 
