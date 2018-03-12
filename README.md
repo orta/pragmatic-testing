@@ -15,7 +15,7 @@ Wanna contribute? [read this](CONTRIBUTING.md).
 | -------|------|---|-----|
 |[What Is/What And Why Of The Book](chapters/en-UK/what_is/what_and_why_of_the_book.md)|2016-03-31|💌|Words: 517|
 |[What Is/How Can I Be Pragmatic With My Testing](chapters/en-UK/what_is/how_can_i_be_pragmatic_with_my_testing.md)|2017-07-26|💌|Words: 368|
-|[XCTest/What Is XCTest How Does It Work](chapters/en-UK/xctest/what_is_xctest_how_does_it_work.md)|2016-09-09|💌|Words: 571|
+|[XCTest/What Is XCTest How Does It Work](chapters/en-UK/xctest/what_is_xctest_how_does_it_work.md)|2018-02-18|💌|Words: 571|
 |[XCTest/Types Of Testing](chapters/en-UK/xctest/types_of_testing.md)|2016-09-09|💌|Words: 511|
 |[XCTest/Unit Testing](chapters/en-UK/xctest/unit_testing.md)|2016-03-31|💌|Words: 336|
 |[XCTest/Three Types Of Unit Tests](chapters/en-UK/xctest/three_types_of_unit_tests.md)|2016-09-09|💌|Words: 350|
@@ -54,13 +54,13 @@ Wanna contribute? [read this](CONTRIBUTING.md).
 |[Prag Prog/Improving Xcode](chapters/en-UK/prag_prog/improving_xcode.md)|2016-03-31|✍🏾|Words: 0|
 |[Wrap Up/Books](chapters/en-UK/wrap_up/books.md)|2016-03-31|📎|Words: 168|
 |[Wrap Up/Twitter Follows](chapters/en-UK/wrap_up/twitter_follows.md)|2016-03-31|✍🏾|Words: 0|
-|[Wrap Up/Recommended Websites](chapters/en-UK/wrap_up/recommended_websites.md)|2016-09-09|✍🏾|Words: 52|
+|[Wrap Up/Recommended Websites](chapters/en-UK/wrap_up/recommended_websites.md)|2018-03-12|✍🏾|Words: 50|
 
 
 Over 200 words: 57.1%
 Over 300 words: 57.1%
 TODOs: 13
-Words: 14280
+Words: 14278
 
 
 ##### Generating the ebook
