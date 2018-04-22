@@ -16,7 +16,7 @@ class Epub
       puts "Looks like #{diff.join(", ")} is/are missing."
     end
 
-    `pandoc -f markdown -t epub --epub-cover-image=assets/Cover.png -o pragmatic_testing.epub --smart --toc --epub-stylesheet=assets/pragmatic_style.css #{ markdown_files.join(" " )}`
+    `pandoc -f markdown -t epub+smart --epub-cover-image=assets/Cover.png -o pragmatic_testing.epub --toc --css=assets/pragmatic_style.css #{ markdown_files.join(" " )}`
   end
 
 end
