@@ -10,7 +10,7 @@ An in-memory context is a managed object context that is identical to your app's
 
 Here's the setup for our in-memory context in Folio:
 
-```objc
+```objectivec
 + (NSManagedObjectContext *)stubbedManagedObjectContext
 {
     NSDictionary *options = @{
@@ -40,7 +40,7 @@ The wrappers for Core Data tend to not be built with DI in mind, offering their 
 
 This means I ended up writing a lot of functions that looked like this:
 
-```objc
+```objectivec
 @interface NSFetchRequest (ARModels)
 
 /// Gets all artworks of an artwork container that can be found with current user settings with an additional scope predicate
@@ -55,7 +55,7 @@ Which, admittedly would be much simpler in Swift thanks to default initialiser. 
 
 In my Core Data stack I use a `CoreDataManager` and the factory pattern. This means I can add some logic to my manager to raise an exception when it is running in tests. You can do this very easily by checking the `NSProcessInfo` class.
 
-``` objc
+```objectivec
 
 static BOOL ARRunningUnitTests = NO;
 
@@ -89,7 +89,7 @@ I like working with Core Data, remember that it is an object graph tool, and so 
 
 Straight after setting up an in-memory store, we wanted to be able to quickly throw example data into our `NSManagedObjectContext`. The way we choose to do it was via a factory object. Seeing as the factory pattern works pretty well here, here's the sort of interface we created:
 
-```
+```objectivec
 @interface ARModelFactory : NSObject
 
 + (Artwork *)fullArtworkInContext:(NSManagedObjectContext *)context;
